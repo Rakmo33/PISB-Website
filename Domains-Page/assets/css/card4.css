@@ -1,0 +1,48 @@
+.card-1-4 {
+
+    background: #ffffff;
+    box-shadow: 0 8px 60px 0 rgba(103, 151, 255, .11), 0 12px 90px 0 rgba(103, 151, 255, .11);
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    transition-delay: 0.3s;
+    height: 22vw;
+    width: 100vw;
+    left: 0;
+    padding: 0;
+    display: none;
+    z-index: 60;
+    top: 7vw;
+}
+
+.card__image-container-4 {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.card__image-4 {
+    left: 0;
+    height: 22vw;
+    float: left;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    object-fit: cover;
+}
+
+.main-card__content-4 {
+    margin-top: 0;
+    opacity: 0;
+    transition: all 0.5s ease-in-out 0.5s;
+}
+
+.main-card__title-4 {
+    font-size: 4vw;
+    color: #142850;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    transition: all 0.2s ease-in-out;
+}
+
+.card4-active {
+    top: 45vw;
+}

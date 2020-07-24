@@ -1,0 +1,180 @@
+/* ?------------CARD 3------------ */
+
+#card3-content {
+  transition: all 0.3s ease-in-out;
+}
+
+.card-3 {
+  position: absolute;
+  background: #142850;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  width: 80vw;
+  z-index: 1;
+  transition: transform 0.3s ease-in-out 0.3s;
+  display: none;
+  top: 7vw;
+}
+
+/* * COL 1 : EMPTY ///////////////////////////////////////////////////////////////////////////////////// */
+
+#hidden-row1 {
+  height: 28vw;
+}
+
+/*  * TEXT ///////////////////////////////////////////////////////////////////////////////////// */
+#text-content-3 {
+  /* min-height: 25vw; */
+  height: fit-content;
+  transition: all 0.3s;
+}
+
+#main-domain-text-3 {
+  color: #d7deed;
+  overflow-y: hidden;
+  height: fit-content;
+  font-size: 3vw;
+  font-weight: 600;
+  margin: 1vw 0vw;
+  padding: 1vw 3vw;
+  text-align: justify;
+}
+
+/* * BUTTONS/////////////////////////////////////////////////////////////////////////// */
+
+.card3-buttons {
+  height: 8vw;
+  transition: all 0.2s;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.myButtons-3 {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  transition: 0.3s;
+  height: 5vw;
+  font-size: 2vw;
+  margin: -2vw auto;
+}
+
+.myButtons-3:hover {
+  color: lightgoldenrodyellow;
+  transform: scale(1.05);
+}
+
+/* * IMAGE /////////////////////////////////////////////////////////////////////////////////////*/
+
+#image-content-3 {
+  padding: 6vw 2vw 0vw 2vw;
+  height: fit-content;
+}
+
+#image-content-3:before {
+  content: "";
+  background: #ffffff;
+  position: absolute;
+  top: 5vw;
+  left: 10vw;
+  height: 1.1px;
+  width: 60vw;
+}
+
+.card3-active {
+  transform: scaleY(0);
+}
+
+.event-header2 {
+  margin-top: 2vw;
+  font-size: 5vw;
+  color: #ffffff;
+}
+
+.linkButtons3 {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.bttn-cont2 {
+  display: flex;
+  text-align: center;
+  height: 3vw;
+}
+
+.bttn-cont2 .bttn2 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 3vw 2vw;
+  margin: 0 1vw;
+
+  border: 2px solid white;
+  color: #d7deed;
+  text-decoration: none;
+  font-size: 3.5vw;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.bttn-cont2 .bttn2:hover {
+  border: none;
+}
+
+.bttn-cont2 .bttn2:hover .line-1 {
+  animation: move1 1500ms infinite ease;
+}
+
+.bttn-cont2 .bttn2:hover .line-2 {
+  animation: move2 1500ms infinite ease;
+}
+
+.bttn-cont2 .bttn2:hover .line-3 {
+  animation: move3 1500ms infinite ease;
+}
+
+.bttn-cont2 .bttn2:hover .line-4 {
+  animation: move4 1500ms infinite ease;
+}
+
+.bttn-cont2 .line-1 {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 2px;
+  background-color: white;
+  left: 0;
+  bottom: 0;
+}
+
+.bttn-cont2 .line-2 {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  background-color: white;
+  left: 0;
+  top: 0;
+}
+
+.bttn-cont2 .line-3 {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 2px;
+  background-color: white;
+  right: 0;
+  top: 0;
+}
+
+.bttn-cont2 .line-4 {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  background-color: white;
+  right: 0;
+  bottom: 0;
+}

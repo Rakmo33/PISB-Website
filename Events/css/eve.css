@@ -1,0 +1,709 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  scroll-padding-top: 65px;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+div.card-body {
+  background-color: #f7f9ff;
+}
+
+div.container-fluid {
+  padding: 0%;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header video {
+    width: 100%;
+  }
+}
+
+
+#eve {
+  padding: 50px;
+  margin: 1rem;
+
+}
+
+#evelogo {
+  width: 100%;
+  padding: 2vw;
+  margin-top: -1vw;
+}
+
+.container-fluid p {
+  padding: 20px;
+  text-align:justify;
+  font-size: 1.2vw;
+}
+
+div.bttn-cont {
+  margin: 0;
+}
+
+.bttn-cont {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.bttn-cont .bttn {
+  position: relative;
+  padding: 20px 70px;
+  border: 2px solid #142850;
+  color: #142850;
+  text-decoration: none;
+  font-size:1.2vw;
+  /* font-family: 'Open Sans', sans-serif; */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+}
+
+.bttn-cont .bttn:hover {
+  border: none;
+}
+
+.bttn-cont .bttn:hover .line-1 {
+  animation: move1 1500ms infinite ease;
+}
+
+.bttn-cont .bttn:hover .line-2 {
+  animation: move2 1500ms infinite ease;
+}
+
+.bttn-cont .bttn:hover .line-3 {
+  animation: move3 1500ms infinite ease;
+}
+
+.bttn-cont .bttn:hover .line-4 {
+  animation: move4 1500ms infinite ease;
+}
+
+.bttn-cont .line-1 {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 2px;
+  background-color: #142850;
+  left: 0;
+  bottom: 0;
+}
+
+.bttn-cont .line-2 {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  background-color: #142850;
+  left: 0;
+  top: 0;
+}
+
+.bttn-cont .line-3 {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 2px;
+  background-color: #142850;
+  right: 0;
+  top: 0;
+}
+
+.bttn-cont .line-4 {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  background-color: #142850;
+  right: 0;
+  bottom: 0;
+}
+
+@keyframes move1 {
+  0% {
+    height: 100%;
+    bottom: 0;
+  }
+
+  54% {
+    height: 0;
+    bottom: 100%;
+  }
+
+  55% {
+    height: 0;
+    bottom: 0;
+  }
+
+  100% {
+    height: 100%;
+    bottom: 0;
+  }
+}
+
+@keyframes move2 {
+  0% {
+    width: 0;
+    left: 0;
+  }
+
+  50% {
+    width: 100%;
+    left: 0;
+  }
+
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+
+@keyframes move3 {
+  0% {
+    height: 100%;
+    top: 0;
+  }
+
+  54% {
+    height: 0;
+    top: 100%;
+  }
+
+  55% {
+    height: 0;
+    top: 0;
+  }
+
+  100% {
+    height: 100%;
+    top: 0;
+  }
+}
+
+@keyframes move4 {
+  0% {
+    width: 0;
+    right: 0;
+  }
+
+  55% {
+    width: 100%;
+    right: 0;
+  }
+
+  100% {
+    width: 0;
+    right: 100%;
+  }
+}
+
+
+
+/* logo  */
+#logoe {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#logoe:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+#leftallign {
+  margin-left: 2rem;
+}
+
+/* sub events logo */
+#sublogo {
+  margin-left: 10px;
+}
+
+#maincont {
+  color: #142850;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+#maincontctd {
+  color: #142850;
+  font-weight: 500;
+}
+
+#maincontcred {
+  margin-left: 2rem;
+}
+
+#headingOne.card-header {
+  padding: 0rem;
+}
+
+#headingTwo.card-header {
+  padding: 0rem;
+}
+
+#headingThree.card-header {
+  padding: 0rem;
+}
+
+#headingFour.card-header {
+  padding: 0rem;
+}
+
+#headingFive.card-header {
+  padding: 0rem;
+}
+
+#eve.row .col-md-8 {
+  margin-bottom: 1.5rem;
+}
+
+#seminar.card {
+  margin: 0 1rem;
+}
+.col-md-3{
+  margin-right: 5vw;
+}
+
+#spacing {
+  margin-top: 3vw;
+}
+
+div#spacing.col-md-4{
+  margin-top: -0.5vw;
+ 
+}
+
+#spacingc {
+  margin-top: 6rem;
+}
+
+/* div.container-fluid{
+  padding: 0%;
+} */
+
+#rowpadding {
+  padding: 50px;
+}
+
+#tech {
+  /* display: flex; */
+  margin-left: 2rem;
+  color: #142850;
+
+}
+#credlogo{
+  width: 100%;
+  margin-left: 3vw;
+}
+#evelogoctd{
+  margin-top: 10vw;
+  margin-left: 5vw;
+  width: 70%;
+}
+#techbutt {
+  padding: 10px 45px;
+}
+
+#inn {
+  width: 50px;
+  padding: 15px;
+  border-radius: 50%;
+  background: #007bb5;
+  color: white;
+  font-size: large;
+  font-weight: 600;
+}
+
+#innname {
+  font-size: large;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+h2{
+  font-size: 2vw;
+}
+
+
+@media only screen and (max-width: 768px) {
+  h2{
+    font-size: 8vw;
+  }
+  #innname {
+    padding-right: 55px;
+    padding-top: 10px;
+  }
+  .container-fluid p {
+    font-size: 4vw;
+  }
+  .spinner2 {
+    margin-left: 0px;
+    position: relative;
+    top: 35%;
+    display: contents;
+    padding-top: 10rem;
+  }
+
+  div.circle2 {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  div.circle1 {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  div.carousel-item img.d-block.w-100 {
+    margin-left: 0px;
+  }
+
+  .container-fluid {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .imglink {
+    order: 1;
+  }
+
+  .cont {
+    order: 2;
+  }
+
+  #readmore {
+    margin: 10px 0px;
+  }
+
+  /* button.navbar-toggler{
+    margin-right: 3rem;
+  } */
+  /* div.container-fluid{
+  padding: 0%;
+  }  */
+
+  /* a.bttn{
+    padding: 6px 25px;
+  } */
+
+  #techbutt {
+    font-size: 15px;
+    padding: 10px 50px;
+  }
+
+  #tech {
+    display: inline-block;
+    /* padding: 10px 5px; */
+    /* margin-left: 4.6rem;
+    margin-right: 4.7rem; */
+    font-size: 15px;
+    text-align: center;
+    margin: 0rem;
+  }
+
+  #rowpadding {
+    padding: 1rem 0px;
+  }
+
+  #spacing {
+    display: flex;
+    justify-content: center;
+  }
+
+  #spacingc {
+    margin-top: 0rem;
+  }
+
+  #eve.row .col-md-8 {
+    padding: 0rem;
+  }
+
+  .container-fluid .card-body {
+    padding: 0rem;
+  }
+
+  .col-md-8 {
+    padding-right: 0rem;
+    padding-left: 0rem;
+  }
+
+  /* .three { order: 3; }
+    .two { order: 4; }
+    .one { order: 5 } */
+
+  /* div.col-md-12 div.carouseli{
+  margin-top: 50px;
+} */
+ 
+
+  .carouseli span {
+    padding-top: 10px;
+  }
+
+  #pad {
+    margin-left: 0rem;
+  }
+  .bttn-cont .bttn {
+    position: relative;
+    padding: 20px 70px;
+    border: 2px solid #142850;
+    color: #142850;
+    text-decoration: none;
+    font-size:4vw;
+    /* font-family: 'Open Sans', sans-serif; */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+  }
+  #tech {
+    margin-top: 1rem;
+  }
+
+  #eve {
+    padding: 0px;
+    margin: 1rem;
+  }
+
+  #evelogo {
+    height: 100%;
+    width: 70%;
+    padding: 0.2rem;
+  }
+
+  #evelogoctd {
+    width: 70%;
+    height: 80%;
+    padding: 2vw;
+    margin-top: 10vw;
+    margin-left: 0;
+  }
+
+  #credlogo {
+    height:100%;
+    width: 50%;
+    padding: 0.2rem;
+    /* margin-left: 2rem; */
+  }
+
+  p {
+    padding: 5px;
+    font-family: 'Montserrat';
+
+  }
+
+  #maincont {
+    font-size: 16px;
+    padding: 5vw 12vw;
+    line-height: 1.5;
+  }
+
+  #maincontctd {
+    margin-top: 5vw;
+  }
+
+  #maincontsem {
+    margin-top: -5vw;
+   
+  }
+
+  #maincontcred {
+    margin-left: 0rem;
+  }
+
+  /* typer */
+  h2.Effect {
+    font-size: 28px;
+    
+  }
+
+  .parallax h2 span {
+    font-size:80%;
+  }
+
+  #heading .parallax {
+    height: 100vh;
+  }
+
+}
+
+
+
+div.col-md-12 {
+  padding: 0rem;
+}
+
+div.carousel-item img.d-block.w-100 {
+  margin-left: 0px;
+}
+
+/* youtube */
+.carouseli {
+  /* padding: .3em .3em 0; */
+  padding-bottom: 10px;
+  background: #f7f9ff;
+  text-align: center;
+}
+
+.carouseli div {
+  position: relative;
+  margin-bottom: .3em;
+  padding-top: 39.375%;
+}
+
+.carouseli iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.carouseli span {
+  display: inline-block;
+  word-spacing: 1em;
+  /* расстояние между картинками */
+
+  /* прокрутка миниатюр при необходимости */
+  overflow: auto;
+  white-space: nowrap;
+  word-wrap: normal;
+
+}
+
+.carouseli a {
+  position: relative;
+  display: inline-block;
+  max-width: 120px;
+  /* максимальная ширина миниатюр */
+  width: 25%;
+  /* ширина миниатюр */
+  border: 1px solid rgba(0, 0, 0, 0);
+  /* рамка вокруг миниатюр */
+  opacity: .7;
+  text-decoration: none;
+}
+
+.carouseli a:visited,
+.carouseli a:nth-of-type(1) {
+  border-color: #555;
+  /* рамка вокруг миниатюр просмотренных видео */
+}
+
+.carouseli a:hover {
+  opacity: 1;
+}
+
+.carouseli a:not(:active):focus {
+  pointer-events: none;
+}
+
+.carouseli a::before {
+  content: "";
+  position: absolute;
+  top: 0em;
+  right: 0em;
+  bottom: 0em;
+  left: 0em;
+  background: rgba(0, 0, 1, .1);
+  transition: background 0s 9999999s;
+}
+
+.carouseli a:nth-of-type(1)::before {
+  background: rgba(255, 255, 254, .7);
+}
+
+.carouseli span:active a::before {
+  background: rgba(0, 0, 0, 0);
+  transition: background 0s;
+}
+
+.carouseli span:active a:active::before {
+  background: rgba(255, 255, 255, .7);
+  transition: background 0s;
+}
+
+.carouseli img {
+  max-width: 100%;
+  vertical-align: middle;
+  /* убрать нижний отступ до рамки под картинкой */
+}
+
+
+/* typer */
+.parallax h2 span {
+  color: #3b578e;
+  font-size: 80%;
+  letter-spacing: 0.5vw;
+}
+
+.parallax {
+  height: 100vh;
+  width: 100%;
+  background-color: #f1f4fb;
+  /* margin-bottom: 7vw; */
+
+}
+
+.Effect {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  font-size: 440%;
+  
+  width: 100%;
+  color: #142850;
+  background-color: #f1f4fb;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  /* transform: translateY(-50%); */
+  letter-spacing: 0.2em;
+}
+
+.button_lin .in {
+  left: 0px;
+}
+
+@media only screen and (min-width:769px) and (max-width: 1200px) {
+  .Effect {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    font-size: 440%;
+    top:40%;
+    width: 100%;
+    color: #142850;
+    background-color: #f1f4fb;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    /* transform: translateY(-50%); */
+    letter-spacing: 0.8vw;
+  }
+#spacing{
+  margin-top: 10vw;
+}
+
+div#spacing.col-md-4 {
+
+  margin-top: 3vw;
+}
+#maincontcred {
+  margin-left:0;
+}
+#credlogo{
+  margin-top: -5vw;
+}
+}

@@ -1,0 +1,188 @@
+.modal-dialog {
+    max-width: 600px;
+    height: max-content;
+}
+
+.modal-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0 auto;
+}
+
+.modal-header .close {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#coming {
+    text-align: center;
+    font-size: 27px;
+}
+
+#wallstreet-form {
+    margin: auto;
+    width: 300px;
+}
+
+.reg-now {
+    margin: 20px auto;
+    font-size: 2.2vw;
+    font-weight: bold;
+    animation: pulse 1s ease-in-out infinite;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #142850;
+    border-color: #0d2552;
+    margin-bottom: 0.5vw;
+
+}
+
+.btn-info:hover {
+    color: #fff;
+    background-color: #3b578e;
+    border-color: #3b578e;
+}
+
+.example {
+    width: fit-content;
+    margin: auto;
+    padding: 5px;
+    box-sizing: border-box;
+    /* transform: scale(0.9); */
+    height: 130px;
+
+}
+
+.example .flipdown {
+    /* margin: auto; */
+}
+
+.modal .form-group {
+    margin-bottom: 10px;
+}
+
+.ws-label {
+    margin: 0;
+    padding: 0;
+}
+
+
+@media (max-width:768px) {
+    .modal-dialog {
+        max-width: 400px;
+    }
+
+    .example {
+        /* width: 200px; */
+        transform: scale(0.8);
+        /* margin-left: -85px; */
+    }
+
+    .example.countdown {
+        margin-left: -85px;
+    }
+
+    #wallstreet-form {
+        width: 300px;
+    }
+
+    .modal-title {
+        font-size: 35px;
+    }
+
+    .reg-now {
+        font-size: 20px;
+        margin: 20px auto;
+    }
+}
+
+
+@media(max-width: 590px) {
+    .example.countdown {
+        width: 100%;
+        /* transform: scale(1.1); */
+        /* margin-left: -5vw; */
+        /* margin-bottom: 2vw; */
+        /* transform: scale(1.4); */
+        margin: 0 auto;
+        /* height: max-content; */
+
+    }
+
+    .example {
+        height: max-content;
+        margin-left: -15vw;
+        /* margin: 0 auto; */
+    }
+
+    .reg-now {
+        margin: 20px auto;
+        font-size: 20px;
+    }
+
+    .modal-dialog {
+        margin: 5vw auto;
+    }
+
+    /* input[type="date"]:after {
+        color: transparent;
+        content: "";
+        background-color: transparent;
+    } */
+
+
+}
+
+@media (min-width: 411px) and (max-width:550px) {
+    .example {
+        margin: auto;
+        transform: scale(1);
+        /* margin-left: 100vw; */
+    }
+}
+
+@media(max-width:480px) {
+    .modal-dialog {
+        width: 90vw;
+        margin: auto;
+    }
+
+    .modal-title {
+        margin-top: 10vw;
+    }
+
+    .example.countdown {
+        transform: scale(1.2);
+        margin: auto;
+    }
+
+    #wallstreet-form {
+        width: 80%;
+    }
+}
+
+@media(max-width:420px) {
+    .example.countdown {
+        transform: scale(1);
+        margin: auto;
+        width: 250px;
+    }
+
+    .example {
+        margin: auto -45px;
+    }
+
+    .modal-dialog {
+        margin: auto;
+    }
+
+    .reg-now {
+        margin-top: 10px;
+    }
+
+}

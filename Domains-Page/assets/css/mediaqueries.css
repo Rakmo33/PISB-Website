@@ -1,0 +1,217 @@
+@media (max-width: 1200px) {
+  .myButtons {
+    font-size: 0.8vw;
+  }
+
+  .bttn-cont .bttn {
+    font-size: 0.7vw;
+  }
+
+  .dropdown {
+    display: flex;
+  }
+  .parallax {
+    
+    margin:0;
+  }
+}
+
+/* ! HEADING AND CARD-1 ///////////////////////////////////////////////////////////////////// */
+
+@media (max-width: 768px) {
+  #heading {
+    height: 100vh;
+    /* font-size: 10vw; */
+  }
+  .parallax{
+    margin-top:-11vh;
+  }
+  .Effect {
+   
+    margin: 0;
+    font-size: 28px;
+  }
+
+  .parallax h2 span {
+    font-size: 80%;
+  }
+
+  #main-domain {
+    height: 160vw;
+    /* margin-top: 5vw; */
+  }
+
+  .open-menu-4 {
+    transform: scale(0.7);
+  }
+}
+
+/* ! Card-2 ////////////////////////////////////////////////////////////////// */
+
+@media (max-width: 768px) {
+  .card-2 {
+    display: none;
+  }
+
+  .card-1 {
+    display: none;
+  }
+}
+
+/* ! Card-3 ////////////////////////////////////////////////////////////////// */
+
+@media (max-width: 768px) {
+  .card-3 {
+    display: block;
+  }
+
+  .card-1-4 {
+    display: block;
+  }
+
+  .card3-buttons {
+    height: 10vw;
+  }
+
+  .event-header {
+    height: 8vw;
+    margin-top: 2vw;
+    font-size: 3.5vw;
+  }
+
+  .img-thumbnail {
+    margin: 2vw 0.5vw;
+  }
+
+  .event-image {
+    height: 15vw;
+  }
+
+  .event-title {
+    font-size: 2vw;
+  }
+}
+
+/* ! doms  /////////////////////////////////////////////////////////*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .dom__image {
+    height: 6.2vw;
+  }
+}
+
+@media (max-width: 768px) {
+  #all-domains {
+    height: 60vw;
+    display: flex;
+    width: 400vw;
+    align-items: center;
+  }
+
+  #all-domains-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  #all-domains-container {
+    display: block;
+    justify-content: left;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .scroll {
+    position: absolute;
+    width: 93vw;
+
+    height: 60vw;
+    display: flex;
+    align-items: center;
+    /* margin: 0; */
+  }
+
+  .left,
+  .right {
+    padding: 0;
+    outline: none;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-radius: 50%;
+    background: #142850;
+    color: whitesmoke;
+    width: 27px;
+    height: 27px;
+    display: block;
+    padding: auto;
+    z-index: 50;
+    position: relative;
+  }
+
+  .right {
+    /* float: right; */
+    margin-left: auto;
+    /* right: 0; */
+    /* margin-left: 86vw; */
+  }
+
+  .selected {
+    height: 100%;
+  }
+
+  .doms {
+    height: 50vw;
+    width: 40vw;
+  }
+
+  .dom__image {
+    height: 30vw;
+  }
+
+  .dom__title {
+    padding: 1vw;
+    font-size: 4vw;
+  }
+
+  .prof-cards-row {
+    height: fit-content;
+  }
+
+  .pro-card {
+    height: 65vw;
+    margin: 5vw 0;
+  }
+
+  .pro-image-container {
+    height: 50vw;
+  }
+
+  .pro-body {
+    height: 45vw;
+  }
+
+  .card-title {
+    height: 15vw;
+    font-size: 4vw;
+  }
+
+  .card-text {
+    padding-top: 2vw;
+    font-size: 3.5vw;
+  }
+
+  .pro-icon {
+    font-size: 4vw;
+    padding: 2.5vw 2.8vw;
+  }
+
+  .pros .pro-card:hover .pro-body {
+    transform: translateY(-28vw);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  #main-domain-text {
+    font-size: 0.8vw;
+  }
+}
