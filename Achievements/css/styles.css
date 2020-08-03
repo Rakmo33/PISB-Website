@@ -908,10 +908,6 @@ a {
     height: 100vh;
   }
 
-  .content {
-    text-align:justify;
-  }
-
   section.Competition,
   section.Projects,
   section.Hackathons,
