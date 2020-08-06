@@ -124,7 +124,7 @@ body {
   top: 0;
   color: #fff;
   font-size: 4vw;
-  line-height: 4vw;
+  line-height: 3.2vw;
   -webkit-animation-name: opacity;
   -webkit-animation-duration: 3s;
   -webkit-animation-iteration-count: infinite;
@@ -231,7 +231,7 @@ body {
     top: 0;
     color: #fff;
     font-size: 6vw;
-    line-height: 6vw;
+    line-height: 5vw;
     -webkit-animation-name: opacity;
     -webkit-animation-duration: 2s;
     -webkit-animation-iteration-count: infinite;
@@ -249,7 +249,7 @@ body {
 
   .title__container__list {
     margin-top: 0;
-    padding-left: 5rem;
+    padding-left: 3rem;
     text-align: left;
     list-style: none;
     -webkit-animation-name: change;
@@ -261,7 +261,7 @@ body {
   }
 
   .title__container__list__item {
-    line-height: 25px;
+    line-height: 22px;
     margin: 0;
   }
 }
@@ -917,7 +917,7 @@ body {
   height:fit-content;
   background: #142850;
   padding: 7px;
-  margin: 2px;
+  
 }
 
 #post-slide .post-title a {
@@ -1059,7 +1059,7 @@ body {
     height: fit-content;
     background: #142850;
     padding: 7px;
-    margin: 2px;
+    
   }
   #post-slide .post-title a {
     padding: 10px;
