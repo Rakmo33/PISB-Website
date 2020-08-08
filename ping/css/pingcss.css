@@ -58,17 +58,23 @@ p{
     bottom:12px;
    }
 
+   #clr{
+    color: #142850;
+    background-color: #d1ddf4;
+   }
+
 .grid {
     box-shadow: 0 10px 10px 2px #4345475e;
     border-radius: 2px;
     height: fit-content;
     justify-content: center;
-    color: #142850;
+    color: white;
     font-family: "Montserrat", sans-serif;
     text-align: justify;
     font-size: 1.2vw;
     font-weight: 400;
     margin: 2vw;
+    background-color: #142850;
     /* max-width: 1000px; */
   
     /* grid-row-gap: 30vh; */
