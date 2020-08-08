@@ -159,10 +159,12 @@ p{
   .fa-facebook-f:before{
     position: relative;
     bottom: 7px;
+    font-size: 35px;
   }
   .fa-linkedin:before {
     position: relative;
     bottom: 8px;
+    font-size: 35px;
   }
 
   #si{
