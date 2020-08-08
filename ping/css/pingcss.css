@@ -8,11 +8,11 @@ p{
 }
 
 #right{
-  text-align: right;
+  text-align: justify;
 }
 
 #left{
-  text-align: left;
+  text-align: justify;
 }
 
 .head {
@@ -110,7 +110,7 @@ p{
     justify-content: center;
     align-items: center;
     width:84%;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
     padding-top: 20px;   
 }
 
@@ -158,13 +158,13 @@ p{
   }
   .fa-facebook-f:before{
     position: relative;
-    bottom: 7px;
-    font-size: 35px;
+    bottom: 4vh;
+    font-size: 25px;
   }
   .fa-linkedin:before {
     position: relative;
-    bottom: 8px;
-    font-size: 35px;
+    bottom: 4vh;
+    font-size: 25px;
   }
 
   #si{
