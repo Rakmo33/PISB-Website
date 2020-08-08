@@ -11,6 +11,7 @@ body{
     font-weight: 600;
     font-size: 48px;
     text-align: center;
+    color:#142850;
   }
 
   .team-photo {
@@ -109,6 +110,7 @@ body{
     font-size: 28px;
     padding-bottom: 40px;
     padding-top:35px;
+    color: #142850;
   }
 
   .socialping h3{
@@ -173,6 +175,10 @@ p{
 }
 #followus{
     text-align: center;
+   }
+
+   h2.head{
+     font-size: 30px;
    }
 }
 
