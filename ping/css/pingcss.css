@@ -7,6 +7,14 @@ p{
   font-weight: 500;
 }
 
+#right{
+  text-align: right;
+}
+
+#left{
+  text-align: left;
+}
+
 .head {
     text-decoration: wavy;
     margin-top: 3vw;
@@ -167,9 +175,23 @@ p{
 .socialping ul{
     justify-content: center;
 }
+#right{
+  text-align: justify;
+}
+
+#left{
+  text-align: justify;
+}
 }
 
 @media (max-width: 768px){
+  #right{
+    text-align: justify;
+  }
+  
+  #left{
+    text-align: justify;
+  }
 #Heading{
     font-size: medium;
 }
@@ -193,6 +215,14 @@ p{
 }
 
 @media screen and (min-width: 320px) and (max-width: 640px) {
+
+  #right{
+    text-align: justify;
+  }
+  
+  #left{
+    text-align: justify;
+  }
 
     .grid {
         width: 80%;

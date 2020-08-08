@@ -44,8 +44,7 @@
   display: flex;
   padding-bottom: 30px;
   justify-content: center;
-
-
+  border-radius: 50%;
 }
 
 .socialping ul li {
