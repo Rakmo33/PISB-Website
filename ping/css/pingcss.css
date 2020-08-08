@@ -3,6 +3,10 @@ body{
     background-color: #d1ddf4;
 }
 
+p{
+  font-weight: 500;
+}
+
 .head {
     text-decoration: wavy;
     margin-top: 3vw;
