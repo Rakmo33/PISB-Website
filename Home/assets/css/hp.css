@@ -261,7 +261,7 @@ body {
   }
 
   .title__container__list__item {
-    line-height: 22px;
+    line-height: 25px;
     margin: 0;
   }
 }
@@ -582,7 +582,7 @@ body {
   font-weight: 500;
   padding: 5px;
   font-size: 1.2vw;
-  text-align: right;
+  text-align: justify;
 
 }
 
@@ -590,7 +590,7 @@ body {
   font-weight: 500;
   padding: 2rem;
   font-size: 1.2vw;
-  text-align: left;
+  text-align: justify;
 }
 
 .pisb-image {
@@ -917,7 +917,6 @@ body {
   height:fit-content;
   background: #142850;
   padding: 7px;
-  
 }
 
 #post-slide .post-title a {
