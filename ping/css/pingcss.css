@@ -15,6 +15,12 @@ p{
   text-align: justify;
 }
 
+#cen{
+  text-align: center;
+  margin-left: 25vh;
+  display: flex;
+}
+
 .head {
     text-decoration: wavy;
     margin-top: 3vw;
@@ -190,6 +196,10 @@ p{
   #right{
     text-align: justify;
   }
+
+  #cen{
+    margin-left: 18vh;;
+  }
   
   #left{
     text-align: justify;
@@ -261,5 +271,17 @@ p.description {
     opacity: 0.9;
 }
   
-  
-  
+@media only screen 
+  and (min-width: 1024px) 
+  {
+    #cen{
+      margin-left: 6vh;
+    }
+
+    i.fab.fa-linkedin:before{
+      bottom: 4vh;
+    }
+    i.fab.fa-facebook-f:before{
+      bottom: 4vh;
+    }
+  }

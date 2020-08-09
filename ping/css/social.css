@@ -94,7 +94,7 @@
     background: #142850;
     transform: rotate(45deg);
     left: -100%;
-    top: 30%;
+    top: 50%;
   }
   .btn:hover::before{
     animation: aaa 0.7s 1;
