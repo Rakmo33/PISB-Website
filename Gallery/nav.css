@@ -1,0 +1,81 @@
+@media only screen and (max-width: 768px) {
+  #navlogo {
+    margin-left: 1rem;
+  }
+}
+
+/* NAVBAR///////////////////////////////////////////////// */
+
+/* Background colors */
+nav {
+  background-color: #27496d;
+}
+
+#navlogo {
+  margin-left: 0rem;
+}
+
+nav .dropdown-menu {
+  background-color: #27496d;
+  transition: all 0.3s;
+}
+
+nav .dropdown-item:hover {
+  background-color: #D1DDF4;
+}
+
+/* text colors */
+nav a {
+  color: #fff;
+  transition: all 0.3s;
+}
+
+nav a:hover {
+  color: rgb(255, 255, 255);
+}
+
+nav .dropdown-menu a {
+  color: #D7DEED;
+  transition: all 0.3s;
+}
+
+nav .dropdown-menu a:hover {
+  color: #142850;
+}
+
+
+/* Arrow */
+nav span {
+  color: #fff;
+}
+
+nav span:hover {
+  color: #84c1ff;
+}
+
+
+
+
+#link-1b {
+  transition: all 0.3s;
+  cursor: pointer;
+  width: 30px;
+  padding-top: 10px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+
+nav .dropdown {
+  display: flex;
+  transition: all 0.3s;
+}
+
+nav .navbar-nav .dropdown-menu {
+  position: absolute;
+}
+
+nav .dropdown-item {
+  transition: all 0.3s;
+}

@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" type="text/css" href="IEEE.js">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/8.0.0/sanitize.min.css'>
+  <link rel="stylesheet" type="text/css" href="Slideshow.css">
+  <link rel="stylesheet" type="text/css" href="nav.css">
+  <link rel="stylesheet" type="text/css" href="IEEEs.css">
+  <title>Document</title>
+
+  <script type="text/javascript">
+    var started;
+    function showLightBox()
+   { 
+     if (started) return;
+     started = setTimeout(function(){
+         Lightbox.start(document.getElementById('firstImage'));
+         started;
+     },500);
+   }
+   function stopShowLightBox(){
+     if (started) {
+         clearTimeout(started)
+         started = 0;
+     }
+   }
+ </script>
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar fixed-top navbar-expand-xl ">
+    <a class="navbar-brand" href="../Home/homepage.html"><img id="navlogo" src="pisb.png"></a>
+    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link " id="link-1a" href="../About-Us/aboutUs.html">About Us</a>
+
+          <span class=" dropdown-toggle" href="#" id="link-1b" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+          </span>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="../About-Us/aboutUs.html#ieee-div">IEEE</a>
+            <a class="dropdown-item" href="../About-Us/aboutUs.html#pisb-div">PISB</a>
+            <a class="dropdown-item" href="../About-Us/aboutUs.html#ping-div">P.I.N.G.</a>
+            <a class="dropdown-item" href="../About-Us/aboutUs.html#wie-div">WIE</a>
+            <!-- <a class="dropdown-item" href="../About-Us/aboutUs.html#csi-div">CSI</a> -->
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link " id="link-1a" href="../Events/events.html">Events</a>
+
+          <span class="nav-link dropdown-toggle" href="#" id="link-1b" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+          </span>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="../Events/events.html#credenz">Credenz</a>
+            <a class="dropdown-item" href="../Events/events.html#ctd">CTD</a>
+            <a class="dropdown-item" href="../Events/events.html#seminar">Seminars</a>
+            <a class="dropdown-item" href="../Events/events.html#sig">SIGs</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link " id="link-1a" href="../Achievements/achievements.html">Achievements</a>
+
+          <span class="nav-link dropdown-toggle" href="#" id="link-1b" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+          </span>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="../Achievements/achievements.html#awards-div">Awards</a>
+            <a class="dropdown-item" href="../Achievements/achievements.html#projects-div">Projects</a>
+            <a class="dropdown-item" href="../Achievements/achievements.html#hackathons-div">Hackathons</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link " id="link-1a" href="../Our-team/card20.html">Our Team</a>
+
+          <span class="nav-link dropdown-toggle" href="#" id="link-1b" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+          </span>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="../Our-team/card20.html">Team 2019-2020</a>
+            <a class="dropdown-item" href="../Our-team/card19.html">Team 2018-2019</a>
+            <a class="dropdown-item" href="../Our-team/card18.html">Team 2017-2018</a>
+
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../Domains-Page/domains.html">Domains</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../About-Us/aboutUs.html#contact-us-div">Contact
+            Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- top button -->
+  <a id="button1"></a>
+
+  <div class="container-fluid">
+    <div class="row d-flex justify-content-center" id="heading">
+      <div class="col-12 parallax d-flex align-items-center justify-content-center">
+        <h2 class="Effect ">GALLERY
+          <br>
+          <span class="type"></span>
+
+        </h2>
+      </div>
+    </div>
+  </div>
+  <!-- partial:index.partial.html -->
+  <div class="container-fluid">
+    <div class="row d-flex justify-content-center">
+      <div class="col-lg-12 col-md-12 col-xs-12 slideshows">
+        <div class="wrapper">
+
+          <div class="slideshow slideshow--hero">
+            <div class="slides">
+              <div class="slide slide1">
+
+              </div>
+              <div class="slide slide2">
+
+              </div>
+              <div class="slide slide3">
+
+              </div>
+              <div class="slide slide4">
+
+              </div>
+              <div class="slide slide5">
+
+              </div>
+            </div>
+          </div>
+          <div class="slideshow slideshow--contrast slideshow--contrast--before">
+            <div class="slides">
+              <div class="slide slide1"></div>
+              <div class="slide slide2"></div>
+              <div class="slide slide3"></div>
+              <div class="slide slide4"></div>
+              <div class="slide slide5"></div>
+            </div>
+          </div>
+          <div class="slideshow slideshow--contrast slideshow--contrast--after">
+            <div class="slides">
+              <div class="slide slide1"></div>
+              <div class="slide slide2"></div>
+              <div class="slide slide3"></div>
+              <div class="slide slide4"></div>
+              <div class="slide slide5"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- partial -->
+
+  <div class="container-fluid">
+    <div class="row d-flex justify-content-center" style="margin-top: 5vw;margin-left: 1vw;">
+      <div class="col-lg-4 col-md-6 col-12 albums ">
+
+        <figure class="snip1543">
+          <img src="img/credenz19/DSC_0378.jpg" alt="sample108"  />
+          <figcaption>
+            <h4>Credenz '19</h4>
+          </figcaption>
+          <a href="#modalWindow1"></a>
+        </figure>
+        <h5>Credenz '19</h5>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 albums">
+
+        <figure class="snip1543"><img src="img/ctd'20/python-min.jpg" alt="sample100" />
+          <figcaption>
+            <h4>Credenz Tech Dayz '20</h4>
+
+          </figcaption>
+          <a href="#modalWindow2"></a>
+        </figure>
+
+        <h5>Credenz Tech Dayz '20</h5>
+
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 albums">
+
+        <figure class="snip1543"><img src="img/seminars/DSC_0572.jpg" alt="sample101" />
+          <figcaption>
+            <h4>Seminars</h4>
+
+          </figcaption>
+          <a href="#modalWindow3"></a>
+        </figure>
+        <h5>Seminars</h5>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center" style="margin-bottom: 5vw;margin-left: 1vw;">
+      <div class="col-lg-4 col-md-6 col-12 albums">
+
+        <figure class="snip1543">
+          <img src="img/credenz18/11.jpg" alt="sample108" />
+          <figcaption>
+            <h4>Credenz '18</h4>
+
+          </figcaption>
+          <a href="#modalWindow4"></a>
+        </figure>
+        <h5>Credenz '18</h5>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 albums">
+
+        <figure class="snip1543"><img src="img/ctd'19/unravel2.jpg" alt="sample100" />
+          <figcaption>
+            <h4>Credenz Tech Dayz '19</h4>
+
+          </figcaption>
+          <a href="#modalWindow5"></a>
+        </figure>
+        <h5>Credenz Tech Dayz '19</h5>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 albums">
+
+        <figure class="snip1543"><img src="img/sigs/IMG_7782.JPG" alt="sample101" />
+          <figcaption>
+            <h4>Special Interest Groups (SIGs)</h4>
+
+          </figcaption>
+          <a href="#modalWindow6"></a>
+        </figure>
+        <h5>Special Interest Groups (SIGs)</h5>
+      </div>
+    </div>
+  </div>
+  <div id="modalWindow1">
+    <div class="row" id="modal-head">
+      <div class="col-6">
+        <h3>Credenz '19</h3>
+      </div>
+      <div class="col-6" id="left">
+        <a href="#close"><button type="button" class="btn cross">X</button></a>
+      </div>
+    </div>
+
+    <div class="row" id="modal-body">
+      <div class="col-lg-4 ">
+        <div class="row ">
+          <div class="col-lg-12 i1">
+
+            <img class="img3" id="firstImage" src="img/credenz19/award.jpeg" onMouseOver="javascript:showLightBox()" onMouseOut="javascript:stopShowLightBox()" style="cursor: pointer;">
+            <a class="vlightbox" href="img/credenz19/award.jpeg" title="2" id="firstImage">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 i2">
+
+            <img class="img2" src="img/credenz19/IMG_2083.JPG" onMouseOver="javascript:showLightBox()" onMouseOut="javascript:stopShowLightBox()" style="cursor: pointer;">
+            <a class="vlightbox" href="img/credenz19/IMG_2083.JPG" title="2" id="firstImage">
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i3">
+
+            <img class="img3" src="img/credenz19/DSC_0027.jpg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i3">
+
+            <img class="img2" src="img/credenz19/IMG_7457.jpg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i3">
+
+            <img class="img2" src="img/credenz19/DSC_0153.jpg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i3">
+
+            <img class="img2" src="img/credenz19/DSC_0661.jpg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i3">
+
+            <img class="img2" src="img/credenz19/DSCN1746.JPG">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i3">
+
+            <img class="img2" src="img/credenz19/DSCN1758.JPG">
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="row ">
+          <div class="col-lg-12 i3">
+
+            <img class="img2" src="img/credenz19/daystogo-min.jpg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i1">
+
+            <img class="img2" src="img/credenz19/audi.jpg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i2">
+
+            <img class="img3" src="img/credenz19/credenz.jpg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i3">
+
+            <img class="img2" src="img/credenz19/DSCN1778.JPG">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i3">
+
+            <img class="img2" src="img/credenz19/DSC_0153.jpg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i1">
+
+            <img class="img3" src="img/credenz19/DSC_0220.jpg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i3">
+
+            <img class="img2" src="img/credenz19/IMG_2297.JPG">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i3">
+
+            <img class="img2" src="img/credenz19/DSCN1738.JPG">
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 ">
+        <div class="row ">
+          <div class="col-lg-12 i2">
+
+            <img class="img3" src="img/credenz19/DSC_0224 (1).jpg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i2">
+
+            <img class="img2" src="img/credenz19/DSC_0280.jpg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i3">
+
+            <img class="img3" src="img/credenz19/DSC_0292.jpg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i1">
+
+            <img class="img2" src="img/credenz19/DSC_0594.jpg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i3">
+
+            <img class="img2" src="img/credenz19/IMG_2332.JPG">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i3">
+
+            <img class="img2" src="img/credenz19/DSC_0714.jpg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i3">
+
+            <img class="img2" src="img/credenz19/IMG_2608.JPG">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i3">
+
+            <img class="img2" src="img/credenz19/DSCN1722.JPG">
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div id="modalWindow2">
+    <div class="row" id="modal-head">
+      <div class="col-6">
+        <h3>Credenz Tech Dayz '20</h3>
+      </div>
+      <div class="col-6" id="left">
+        <a href="#close"><button type="button" class="btn cross">X</button></a>
+      </div>
+    </div>
+
+
+    <div class="row" id="modal-body">
+      <div class="col-lg-4 ">
+        <div class="row">
+          <div class="col-lg-12 i1">
+
+            <img class="img3" src="img/ctd'20/cppsem (2).jpg">
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 i2">
+
+            <img class="img2" src="img/ctd'20/DSC_0294.jpg">
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-4">
+        <div class="row ">
+          <div class="col-lg-12 i1">
+
+            <img class="img2" src="img/ctd'20/inquiz2.jpg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i2">
+
+            <img class="img3" src="img/ctd'20/inquiz3jpg.jpg">
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-4 ">
+        <div class="row ">
+          <div class="col-lg-12 i2">
+
+            <img class="img3" src="img/ctd'20/mlsem2.jpg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i2">
+
+            <img class="img2" src="img/ctd'20/python (2)-min.jpg">
+
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+  <div id="modalWindow3">
+    <div class="row" id="modal-head">
+      <div class="col-6">
+        <h2>Seminars</h2>
+      </div>
+      <div class="col-6" id="left">
+        <a href="#close"><button type="button" class="btn cross">X</button></a>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-lg-4 ">
+        <div class="row ">
+          <div class="col-lg-12 i1">
+
+            <img class="img3" src="img/seminars/cppsem (2).jpg">
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 i2">
+
+            <img class="img2" src="img/seminars/cppsem (3).jpg">
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-4">
+        <div class="row ">
+          <div class="col-lg-12 i1">
+
+            <img class="img2" src="img/seminars/cppsem.jpg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i2">
+
+            <img class="img3" src="img/seminars/DSC_0572.jpg">
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-4 ">
+        <div class="row ">
+          <div class="col-lg-12 i2">
+
+            <img class="img3" src="img/seminars/DSC_0578.jpg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i3">
+
+            <img class="img2" src="img/seminars/mlsem2.jpg">
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <div id="modalWindow4">
+    <div class="row" id="modal-head">
+      <div class="col-6">
+        <h2>Credenz '18</h2>
+      </div>
+      <div class="col-6" id="left">
+        <a href="#close"><button type="button" class="btn cross">x</button></a>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-lg-4 ">
+        <div class="row ">
+          <div class="col-lg-12 i1">
+
+            <img class="img1" src="img/credenz18/21.jpg">
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 i2">
+
+            <img class="img2" src="img/credenz18/29.jpg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i3">
+
+            <img class="img2" src="img/credenz18/41.jpg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i3">
+
+            <img class="img2" src="img/credenz18/DSC00859.JPG">
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="row ">
+          <div class="col-lg-12 i1">
+
+            <img class="img2" src="img/credenz18/bg2 (2).jpeg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i2">
+
+            <img class="img3" src="img/credenz18/IMG_2731.JPG">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i3">
+
+            <img class="img2" src="img/credenz18/DSC00890.JPG">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i1">
+
+            <img class="img3" src="img/credenz18/DSC_0306.JPG">
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 ">
+        <div class="row ">
+          <div class="col-lg-12 i2">
+
+            <img class="img3" src="img/credenz18/54.jpg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i2">
+
+            <img class="img2" src="img/credenz18/DSC00281.JPG">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i3">
+
+            <img class="img3" src="img/credenz18/DSC00422.JPG">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i1">
+
+            <img class="img2" src="img/credenz18/DSC_0018.JPG">
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div id="modalWindow5">
+    <div class="row" id="modal-head">
+      <div class="col-6">
+        <h2>Crendemz Tech Dayz '19</h2>
+      </div>
+      <div class="col-6" id="left">
+        <a href="#close"><button type="button" class="btn cross">X</button></a>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-lg-4 ">
+        <div class="row ">
+          <div class="col-lg-12 i1">
+
+            <img class="img1" src="img/ctd'19/unravel.jpg">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="row ">
+          <div class="col-lg-12 i1">
+
+            <img class="img2" src="img/ctd'19/unravel2.jpg" style="height: 28vh;">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i2">
+
+            <img class="img3" src="img/ctd'19/unravel1.jpg" style="height: 28vh;">
+
+          </div>
+        </div>
+
+      </div>
+    
+    <div class="col-lg-4 ">
+      <div class="row ">
+        <div class="col-lg-12 i2">
+
+          <img class="img1" src="img/ctd'19/py1.jpg">
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  </div>
+  <div id="modalWindow6">
+    <div class="row" id="modal-head">
+      <div class="col-6">
+        <h2>Special Interest Groups</h2>
+      </div>
+      <div class="col-6" id="left">
+        <a href="#close"><button type="button" class="btn cross">X</button></a>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-lg-4 ">
+        <div class="row ">
+          <div class="col-lg-12 i1">
+
+            <img class="img1"
+              src="img/sigs/IMG_7782.JPG">
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 i2">
+
+            <img class="img2"
+              src="img/sigs/sig1.jpg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i3">
+
+            <img class="img2"
+              src="img/sigs/sig5.jpg">
+
+          </div>
+        </div>
+        
+      </div>
+      <div class="col-lg-4">
+        <div class="row ">
+          <div class="col-lg-12 i1">
+
+            <img class="img2"
+              src="img/sigs/sig3.jpg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i2">
+
+            <img class="img3"
+              src="img/sigs/sig4.jpg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i3">
+
+            <img class="img3"
+              src="img/sigs/sig7.jpg">
+
+          </div>
+        </div>
+        
+      </div>
+      <div class="col-lg-4 ">
+        <div class="row ">
+          <div class="col-lg-12 i2">
+
+            <img class="img3"
+              src="img/sigs/sig10.jpg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i2">
+
+            <img class="img2"
+              src="img/sigs/sig2.jpg">
+
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-12 i3">
+
+            <img class="img3"
+              src="img/sigs/sig9.jpg">
+
+          </div>
+        </div>
+       
+      </div>
+
+    </div>
+  </div>
+  
+    </div>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="typed.js"></script>
+  <script src="zoom.js"></script>
+  <script>
+    var typed = new Typed(".type", {
+      strings: [
+        "CREDENZ '19",
+        "CREDENZ TECH DAYZ '20",
+        "CREDENZ '18",
+        "CREDENZ TECH DAYZ '19",
+        "SEMINARS '19-20",
+        "S.I.G.s '19-20"
+      ],
+      typeSpeed: 120,
+      backSpeed: 120,
+      loop: true
+    });
+  </script>
+
+
+</body>
+
+</html>
