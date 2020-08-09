@@ -21,6 +21,21 @@ p{
   display: flex;
 }
 
+.Effect {
+  margin: 0;
+  padding: 0 1vw;
+  position: absolute;
+  font-size: 440%;
+  top:40%;
+  width: 100%;
+  color: #142850;
+  background-color: #f1f4fb;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  /* transform: translateY(-50%); */
+  letter-spacing: 0.5vw;
+}
 .head {
     text-decoration: wavy;
     margin-top: 3vw;
@@ -253,6 +268,11 @@ p{
         font-size: 30px;
         margin-bottom: 50px;
     }
+
+    .Effect{
+      font-size: 28px;
+      padding: 0 1vw;
+    }
 }
 
 p.description {
@@ -286,6 +306,7 @@ p.description {
       bottom: 3vh;
       right: 0vh;
     }
+    
   }
 
   @media (min-device-width :1025px) {

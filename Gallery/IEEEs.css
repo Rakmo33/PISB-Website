@@ -10,7 +10,9 @@ body{
   background-color:#f1f4fb;
   font-family: "Montserrat", sans-serif;
 }
-
+.albums{
+  padding: 0 auto;
+}
 
 /* .slider{
   width: 100%;
@@ -129,6 +131,7 @@ body{
   backface-visibility: hidden;
   max-width: 100%;
   vertical-align: top;
+  
 }
 
 .snip1543:before,
@@ -534,9 +537,7 @@ h5{
     overflow: hidden;
     
   }
-  .albums{
-    padding-left: 5vw;
-  }
+  
   h3{
     font-size: 18px;
   }
@@ -863,6 +864,12 @@ h5{
   }
   .img1,.img2,.img3{
     height: 25vh;
+  }
+  .albums{
+    padding: 0 auto;
+  }
+  .Al{
+    padding-left: 0;
   }
 
   .slideshow--hero .slides {
