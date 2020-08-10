@@ -78,7 +78,7 @@ FgGallery.prototype.generateItems = function() {
           function imagePopResize(elem) {
       if (elem.naturalWidth < window.innerWidth && elem.naturalHeight < window.innerHeight ) {
         elem.style.width = 'auto';
-         elem.style.height = 'auto';
+        elem.style.height = 'auto';
       } 
 
       if (elem.offsetWidth > window.innerWidth) {
@@ -88,7 +88,7 @@ FgGallery.prototype.generateItems = function() {
 
       if (elem.offsetHeight > window.innerHeight) {
                   elem.style.width = 'auto';
-        elem.style.height = 'auto';
+        elem.style.height = '80%';
       }
     }
       })
