@@ -1,0 +1,10 @@
+
+/** * Grid */
+.gallery__grid .row:nth-child(n+2) {
+   /* Adding some margin to create a bit of space under rows */
+	margin-top: 1rem;
+}
+.gallery__column {
+   /* In case the image is bigger than the column */
+	overflow: hidden;
+}
