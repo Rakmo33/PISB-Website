@@ -28,7 +28,7 @@ let FgGallery = function(selector) {
   this.galleryItemSequence = 0; // gallery image
 
   // Adding cols class
-  this.gallerySelector[0].classList.add(`cols-${this.argumens[1].cols}`);
+  // this.gallerySelector[0].classList.add(`cols-${this.argumens[1].cols}`);
 
   // Original images
   this.originalImages = {} // galleries with images
@@ -50,7 +50,7 @@ FgGallery.prototype.generateItems = function() {
 
           // create new image elements
           var newImages = '';
-          newImages += `<div class="gallery-items" style="background: url(${imageItems.src}) center / cover; "></div>`
+          newImages += `<div class="gallery-items" style="background: url(${imageItems.src}) center /cover; "></div>`
           newImages = galleryContainer.appendChild(document.createRange().createContextualFragment(newImages).firstElementChild);
           imageItems.remove(); // Remove original images
           
