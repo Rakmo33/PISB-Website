@@ -5,7 +5,6 @@
 
       reg.addEventListener("click", (e)=>{
         e.preventDefault();
-        console.log("in register");
           var email=document.getElementById("email").value;
           var password= document.getElementById("pass").value;
           var fname=document.getElementById("fname").value;
@@ -13,10 +12,7 @@
           var dob= document.getElementById("dob").value;
           var branch= document.getElementById("branch").value;
           var prof= document.getElementById("prof").value;
-          console.log(email);
-          console.log(password);
           firebase.auth().createUserWithEmailAndPassword(email, password).then(function(){
-            //   alert("registered successfully");
             var id= firebase.auth().currentUser.uid;
             firebase.database().ref('/Members/'+id).set({
               first_name:fname,
@@ -25,9 +21,10 @@
               branch:branch,
               profession:prof
             });
-            document.getElementById("form").reset();           
+            document.getElementById("form").reset();    
+            alert("Registered Successfully");       
       }).catch(function(error) {
-        console.log(error.message);
+        alert(error.message);
       })
     })
       
