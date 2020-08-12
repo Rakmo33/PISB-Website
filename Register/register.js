@@ -1,25 +1,34 @@
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyAqZg4mfT-olnnXrbACYwfSUKLXbilu05M",
-    authDomain: "pisb-register.firebaseapp.com",
-    databaseURL: "https://pisb-register.firebaseio.com",
-    projectId: "pisb-register",
-    storageBucket: "pisb-register.appspot.com",
-    messagingSenderId: "567975996062",
-    appId: "1:567975996062:web:76df9477c9480119ac298f",
-    measurementId: "G-RN568ZZ7KQ"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
+      var auth=firebase.auth();
+      var db=firebase.database();
 
-  function registerUser(){
-      var email=document.getElementById("email");
-      var password= document.getElementById("pass");
-      firebase.auth().createUserWithEmailAndPassword(email, password).then(function(){
-          alert("registered successfully");
+      var reg=document.getElementById("register");
 
-      }).catch(function(error){
-          alert("error.message");
+      reg.addEventListener("click", (e)=>{
+        e.preventDefault();
+        console.log("in register");
+          var email=document.getElementById("email").value;
+          var password= document.getElementById("pass").value;
+          var fname=document.getElementById("fname").value;
+          var lname= document.getElementById("lname").value;
+          var dob= document.getElementById("dob").value;
+          var branch= document.getElementById("branch").value;
+          var prof= document.getElementById("prof").value;
+          console.log(email);
+          console.log(password);
+          firebase.auth().createUserWithEmailAndPassword(email, password).then(function(){
+            //   alert("registered successfully");
+            var id= firebase.auth().currentUser.uid;
+            firebase.database().ref('/Members/'+id).set({
+              first_name:fname,
+              last_name:lname,
+              dateOfBirth:dob,
+              branch:branch,
+              profession:prof
+            });
+            document.getElementById("form").reset();           
+      }).catch(function(error) {
+        console.log(error.message);
       })
-  }
+    })
+      
+      
