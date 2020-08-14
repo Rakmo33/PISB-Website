@@ -673,3 +673,28 @@ input {
     margin-bottom: 80px;
 }
 }
+
+
+#heading {
+  text-align: center;
+  color: #3b578e;
+  font-weight: 600;
+  font-size: 3vw;
+  padding: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 768px) {
+  #heading {
+    color: #3b578e;
+    font-weight: 600;
+    font-size: 7vw;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
