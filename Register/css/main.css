@@ -634,6 +634,9 @@ input {
 }
 
 @media (max-width: 767px) {
+  div#dob.col-md-6{
+    padding:12px;
+  }
   .card-4 .card-body {
     padding: 50px 40px;
   }
@@ -698,3 +701,17 @@ input {
     align-items: center;
   }
 }
+
+@media only screen 
+  and (min-device-width: 768px) and (max-device-width: 1024px) 
+  {
+    div#dob.col-md-6{
+      padding:12px;
+    }
+  }
+
+  @media (min-device-width :1025px){
+    div#dob.col-md-6{
+      padding:12px;
+    }
+  }

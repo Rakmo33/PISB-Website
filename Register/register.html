@@ -152,8 +152,8 @@
         <div style="margin-top: 20vh; background-color: #f1f4fb; display: flow-root;" id="heading">
             <div>Registration for Discussion Forum.</div>
             <p style="font-size: 18px; text-align: center;"> 
-              Assist your junior PISB members with their queries and benefit them with your professional guidance. <br>
-     Register here to become a respondent for our discussion forum!
+              <i class="fas fa-comments"></i>&nbsp; Assist your junior PISB members with their queries and benefit them with your professional guidance. <br>
+              <i class="fas fa-pencil-alt"></i>&nbsp;Register here to become a respondent for our discussion forum!
             </p>
         </div>
         
@@ -163,7 +163,7 @@
         <div class="wrapper wrapper--w680">
             <div class="card card-4 ">
                 <div class="card-body bg1">
-                    <h2 class="title">Registration Form</h2>
+                    <h2 class="title"><i class="fas fa-user-edit"></i>&nbsp;Registration Form</h2>
                     <form id="form" method="POST">
                         <div class="row ">
                             <div class="col-md-12">
@@ -182,13 +182,13 @@
                         </div>
                       </div>
                         <div class="row row-space">
-                            <div class="col-6">
+                            <div id="dob" class="col-md-6">
                                 <div class="input-group">
                                     <label class="label">DOB</label>
                                         <input style="padding: 0 10px;" class="input--style-4 " type="date" name="birthday" id="dob" required>
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div id="dob" class="col-md-6">
                               <div class="input-group">
                                   <label class="label">Branch</label>
                                   <input class="input--style-4" type="text" name="branch" id="branch" required>
@@ -215,7 +215,7 @@
                               <input minlength="8" class="input--style-4" type="password" name="profession" id="pass" required>
                           </div>
                       </div>
-                        <div class="p-t-15 cen">
+                        <div class="p-t-15 cen mt-4">
                             <button id="register" style="background-color: #142850; color: white;"  class="btn btn--radius-2 btn--blue" type="submit">Submit</button>
                         </div>
                     </form>
