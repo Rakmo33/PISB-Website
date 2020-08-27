@@ -19,10 +19,10 @@
   <!-- Font special for pages-->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
     rel="stylesheet">
-	<!-- AOS -->
+  <!-- AOS -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
-   <!-- Animate -->
-   <link rel="stylesheet" href="assets/css/animate.css">
+  <!-- Animate -->
+  <link rel="stylesheet" href="assets/css/animate.css">
   <!-- Main CSS-->
   <link href="css/main.css" rel="stylesheet" media="all">
   <!-- Bootsrtap -->
@@ -40,7 +40,7 @@
   <!-- popup -->
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css'>
   <!-- Animate css -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
 </head>
 
 <body class="bg">
@@ -153,32 +153,54 @@
 
   <!-- top button -->
   <a id="button1"></a>
+  <div class="container-fluid">
+    <div id="cen">
+      <div class="pdf d-flex justify-content-center" style="margin-top: 20vh; display: flow-root;">
+        <div data-aos="zoom-in" data-aos-duration="2000">
+          <h1 class="title-head">PISB's DISCUSSION FORUM</h1>
+          <h4 style="color:#2b467e"><i>Where geeks put their heads together!</i></h4>
+        </div>
+      </div>
 
-  <div id="cen">
-    <div style="margin-top: 20vh; background-color: #f1f4fb; display: flow-root;" id="heading">
-      <div data-aos="zoom-in" data-aos-duration="2000">Registration for Discussion Forum</div>
     </div>
-
   </div>
-
 
   <div class="page-wrapper p-r-100 p-t-130 p-b-100 font-Montserrat">
     <div class="reg row">
-      <div id="info" class="col-lg-6">
-        <div class="animate__animated animate__fadeIn animate__delay-1s">
-          <p style="font-size: 18px; text-align: justify;">
-            <div id="discicon" class="animate__animated animate__fadeIn animate__delay-1s" ><i class="far fa-comments"></i>&nbsp;</div>
-            Assist your junior PISB members with their queries and benefit them with your professional guidance. <br>
-            <b>Register here</b><br> to become a respondent for our discussion forum!
-            </p>
+
+      <div id="info" class="col-lg-7">
+        <div>
+          <img class="box image" src="../Register/ieee.jpeg" alt="ieeegroup">
         </div>
-       
+        <div class="box top animate__animated animate__fadeIn animate__delay-1s">
+          <p style="font-size: 18px; text-align: justify;">
+          <div id="discicon" class="animate__animated animate__fadeIn animate__delay-1s"><i
+              class="far fa-comments"></i>&nbsp;</div>
+          Ours is an online supportive platform for discussion about the latest trends in the industry and solves the
+          queries regarding various
+          technological domains answered by our professional and experienced seniors/ former members of PISB.<br><br>
+          <i>Grab this opportunity to become a part of our forum and acknowledge your junior members with solutions and
+            to
+            assist them with your expertise!</i>
+          </p>
+        
+        <div class="bttn-cont">
+          <a class="bttn" href="../About-Us/aboutUs.html#pisb-div">
+            Go to forum
+            <span><i class="fa fa-chevron-right arrow"></i></span>
+            <span class="line-1"></span>
+            <span class="line-2"></span>
+            <span class="line-3"></span>
+            <span class="line-4"></span>
+          </a>
+        </div>
+      </div>
         <!-- <i class="fas fa-pencil-alt"></i>&nbsp; -->
       </div>
-      <div class="wrapper wrapper--w680 col-lg-6 p-0">
+      <div class="wrapper wrapper--w680 col-lg-5 p-0">
         <div class="card card-4">
           <div class="card-body bg1">
-            <h2 class="title"><i class="fas fa-user-edit"></i>&nbsp;Registration Form</h2>
+            <h2 class="title"><i class="fas fa-user-edit"></i>&nbsp;Register here!</h2>
             <form id="form" method="POST">
               <div class="row ">
                 <div class="col-md-12">
@@ -197,14 +219,14 @@
                 </div>
               </div>
               <div class="row row-space">
-                <div id="dobs" class="col-md-6">
+                <div id="dobs" class="col-md-12">
                   <div class="input-group">
-                    <label class="label">DOB</label>
+                    <label class="label">Date Of Birth</label>
                     <input style="padding: 0 10px;" class="input--style-4 " type="date" name="birthday" id="dob"
                       required>
                   </div>
                 </div>
-                <div id="dobs" class="col-md-6">
+                <div id="dobs" class="col-md-12">
                   <div class="input-group">
                     <label class="label">Branch</label>
                     <input class="input--style-4" type="text" name="branch" id="branch" required>
@@ -214,15 +236,16 @@
               <div class="row">
                 <div class="col-md-12">
                   <div class="input-group">
-                    <label class="label">Email id</label>
-                    <input class="input--style-4" type="email" name="email" id="email" required>
+                    <label class="label">Profession</label>
+                    <input class="input--style-4" type="text" name="profession" id="prof" required>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-12">
-                  <label class="label">Profession</label>
-                  <input class="input--style-4" type="text" name="profession" id="prof" required>
+                  <label class="label">Email id</label>
+                  <input class="input--style-4" type="email" name="email" id="email" required>
+
                 </div>
               </div>
               <div class="row mt-4">
@@ -232,7 +255,7 @@
                 </div>
               </div>
               <div class="p-t-15 cen mt-4">
-                <button id="register" style="background-color: #142850; color: white;"
+                <button id="register" style="background-color: #142850; color: white;font-size:14px;"
                   class="btn btn--radius-2 btn--blue" type="submit">Submit</button>
               </div>
             </form>
@@ -494,7 +517,7 @@
 
   <script>
     new WOW().init();
-    </script>
+  </script>
 
 </body>
 
