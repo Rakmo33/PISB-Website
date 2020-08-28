@@ -1,4 +1,6 @@
-
+.brdr{
+  border: solid black 0px;
+}
 /* ==========================================================================
    #FONT
    ========================================================================== */
@@ -55,10 +57,10 @@ html {
   box-sizing: border-box;
 }
 
-* {
+/* * {
   padding: 0;
   margin: 0;
-}
+} */
 
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
@@ -621,47 +623,51 @@ input {
   border-radius: 3px;
   background: #fff;
 }
-
+#regform{
+ padding: 5vw 15vw;
+ 
+}
 #reg{
-  background: #d1ddf4;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 10px 10px 10px rgba(12, 12, 12, 0.658);
 }
-
 #discicon{
-  font-size: 150px;
+  font-size: 100px;
   text-align: center;
-  padding-bottom: 20px;
-}
-#info{
-  background-color: #182f5c;
-  overflow:hidden;
-}
-.image{
-  opacity:0.1;
-  position: absolute;
-  top:0%;
-  left:-35%;
+  margin-top:3vw;
 }
 
-.top{
-  left:0;
-position: absolute;
+.image-box{
+  margin-left: 10vw;
+  margin-right: 10vw;
+  height: 40%;
+  
+}
+
+.image{
+  height: 25vw;
+  box-shadow: 2px 5px 10px rgba(12, 12, 12, 0.658);
+  width: 40.5vw;
+  z-index: 10;
+}
+.box{
+  background-color: #f1f4fb;
+}
+
+.text-box{
+  background-color: #142850;
+  padding-bottom: 66px;
 color: #fff;
-padding-top: 3vw;
 text-align: center;
-font-size: 18px;
-opacity:1;
+font-size: 14px;
 padding-left: 2vw;
 padding-right: 2vw;
 z-index: 10;
+box-shadow: 2px 5px 10px rgba(12, 12, 12, 0.658);
+margin-right:-3px!important ;
+
 }
 .bttn-cont {
-  margin-top: 5vw;
+  margin-top: 0.5vw;
   text-align: center;
   
 }
@@ -669,10 +675,10 @@ z-index: 10;
 .bttn-cont .bttn {
 
   position: relative;
-  padding: 1rem;
+  padding: 0.75rem;
   color: #fafafa;
   text-decoration: none;
-  font-size: 1.2vw;
+  font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2px;
   -webkit-font-smoothing: antialiased;
@@ -934,7 +940,36 @@ z-index: 10;
   .pdf{
     text-align: center;
   }
+  .image-box{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    height: fit-content;
+  }
+  
   .image{
+    height: 40vw;
+    box-shadow: 2px 5px 10px rgba(12, 12, 12, 0.658);
+    width: 100%;
+    
+  }
+  .box{
+    background-color: #f1f4fb;
+    
+  }
+  
+  .text-box{
+    background-color: #142850;
+    color: #fff;
+    text-align: center;
+   font-size: 14px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    /* z-index: 10; */
+    box-shadow: 2px 5px 10px rgba(12, 12, 12, 0.658);
+    margin-right:-15px !important;
+  }
+
+  /* .image{
     opacity:0.1;
     position: absolute;
     top:0%;
@@ -953,7 +988,7 @@ z-index: 10;
   padding-right: 5vw;
   z-index: 10;
   margin: 0 auto;
-  }
+  } */
 }
 
 @media only screen 
