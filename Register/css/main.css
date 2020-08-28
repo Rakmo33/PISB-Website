@@ -653,11 +653,11 @@ position: absolute;
 color: #fff;
 padding-top: 3vw;
 text-align: center;
-font-size: 16px;
+font-size: 1.2vw;
 opacity:1;
 padding-left: 3vw;
 padding-right: 3vw;
-z-index: 10;
+
 }
 .bttn-cont {
   margin-top: 5vw;
@@ -899,7 +899,8 @@ z-index: 10;
   justify-content: center;
   align-items: center;
 }
-@media only screen and (min-width : 300px) and (max-width : 569px) {
+
+@media only screen and (min-width : 320px) and (max-width : 768px) {
   #heading {
     color: #3b578e;
     font-weight: 600;
@@ -914,66 +915,14 @@ z-index: 10;
     padding-right: 30px;
     padding-left: 30px;
   }
-  #info{
-    background-color: #182f5c;
-    height:266vw;
-  }
-  .bttn-cont .bttn {
-
-    position: relative;
-    padding: 1rem;
-    color: #fafafa;
-    text-decoration: none;
-    font-size: 4vw;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    -webkit-font-smoothing: antialiased;
-  }
-  .pdf{
-    text-align: center;
-  }
   
-  .top{
-    left:0;
-  position: absolute;
-  color: #fff;
-  padding-top: 0;
-  text-align: center;
-  font-size: 18px;
-  opacity:1;
-  padding-left: 5vw;
-  padding-right: 5vw;
-  z-index: 10;
-  margin: 0 auto;
-  height: 100vw;
-  }
-}
-@media only screen and (min-width : 570px) and (max-width : 768px) {
-  #heading {
-    color: #3b578e;
-    font-weight: 600;
-    font-size: 10vw;
-    text-align: center;
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .p-r-100{
-    padding-right: 30px;
-    padding-left: 30px;
-  }
-  #info{
-    background-color: #182f5c;
-    height:250vw;
-  }
   .bttn-cont .bttn {
-
+    margin-top: 10vw;
     position: relative;
-    padding: 1rem;
+    padding: 5vw;
     color: #fafafa;
     text-decoration: none;
-    font-size: 4vw;
+    font-size: 5vw;
     text-transform: uppercase;
     letter-spacing: 2px;
     -webkit-font-smoothing: antialiased;
@@ -984,18 +933,16 @@ z-index: 10;
   
   
   .top{
-    left:0;
-  position: absolute;
+  position: relative;
   color: #fff;
   padding-top: 0;
   text-align: center;
-  font-size: 18px;
+  font-size: 5vw;
   opacity:1;
   padding-left: 5vw;
   padding-right: 5vw;
-  z-index: 10;
+  padding-bottom: 10vw;
   margin: 0 auto;
-  height: 100vw;
   }
 }
 
