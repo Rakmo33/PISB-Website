@@ -917,6 +917,10 @@ padding-right: 3vw;
     padding-right: 30px;
     padding-left: 30px;
   }
+
+  .title-head{
+    text-align: center;
+  }
   
   .bttn-cont .bttn {
     margin-top: 10vw;
