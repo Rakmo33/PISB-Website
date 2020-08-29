@@ -181,8 +181,8 @@ h6 {
 }
 
 .p-r-100{
-padding-left: 6vw;
-padding-right: 6vw;
+padding-left: 15vw;
+padding-right: 15vw;
 }
 
 .p-t-130 {
@@ -633,6 +633,7 @@ input {
 }
 
 #discicon{
+  margin: 0 auto;
   font-size: 150px;
   text-align: center;
   padding-bottom: 20px;
@@ -653,15 +654,15 @@ input {
 position: absolute;
 color: #fff;
 padding-top: 3vw;
+font-size: 1rem;
 text-align: center;
-font-size: 1.2vw;
 opacity:1;
 padding-left: 3vw;
 padding-right: 3vw;
 
 }
 .bttn-cont {
-  margin-top: 5vw;
+  margin-top: 3vw;
   text-align: center;
   
 }
@@ -672,7 +673,7 @@ padding-right: 3vw;
   padding: 1rem;
   color: #fafafa;
   text-decoration: none;
-  font-size: 1.2vw;
+  font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 2px;
   -webkit-font-smoothing: antialiased;
@@ -932,7 +933,12 @@ padding-right: 3vw;
     text-align: center;
   }
   
-  
+  #discicon{
+    margin: 5vw auto;
+    font-size: 150px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
   .top{
   position: relative;
   color: #fff;
