@@ -635,7 +635,7 @@ input {
 #discicon{
   font-size: 150px;
   text-align: center;
-  padding-bottom: 20px;
+  
 }
 #info{
   background-color: #182f5c;
@@ -648,12 +648,12 @@ input {
 }
 
 .top{
+  padding-top: 2vw;
   left:0;
 position: absolute;
 color: #fff;
-padding-top: 3vw;
 text-align: center;
-font-size: 1.2vw;
+font-size: 16px;
 opacity:1;
 padding-left: 3vw;
 padding-right: 3vw;
@@ -671,7 +671,7 @@ padding-right: 3vw;
   padding: 1rem;
   color: #fafafa;
   text-decoration: none;
-  font-size: 1.2vw;
+  font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 2px;
   -webkit-font-smoothing: antialiased;
@@ -841,11 +841,7 @@ padding-right: 3vw;
     padding-right: 30px;
     padding-left: 30px;
   }
-  #info{
-    
-    padding-top: 5vh;
-    padding-bottom: 10vh;
-  }
+ 
 }
 
 /* grid */
