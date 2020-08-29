@@ -181,8 +181,8 @@ h6 {
 }
 
 .p-r-100{
-padding-left: 15vw;
-padding-right: 15vw;
+padding-left: 6vw;
+padding-right: 6vw;
 }
 
 .p-t-130 {
@@ -642,9 +642,9 @@ input {
   
 }
 .image{
-  background-image: url("../ieee.jpeg");
+  /* background-image: url("../ieee.jpeg"); */
   opacity:1;
-  width: fit-content;
+  width: 100%;
   box-shadow: #333 2px 5px 10px;
 }
 
