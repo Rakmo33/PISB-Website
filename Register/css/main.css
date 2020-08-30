@@ -910,11 +910,12 @@ padding-right: 3vw;
     justify-content: center;
     align-items: center;
   }
-  .desktopview, .image2,.sub-head{
+  .desktopview, #image2,.sub-head{
     display: none;
   }
   
   #image1{
+    display:flex!important;
     opacity:1;
     width: 100%;
     box-shadow: #333 2px 5px 10px;
@@ -980,7 +981,7 @@ padding-right: 3vw;
 #image1{
   display:none;
 }
-  .image2{
+  #image2{
     opacity:1;
     width: 100%;
     box-shadow: #333 2px 5px 10px;
