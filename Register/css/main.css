@@ -910,7 +910,7 @@ padding-right: 3vw;
     justify-content: center;
     align-items: center;
   }
-  .desktopview, .image2{
+  .desktopview, .image2,.sub-head{
     display: none;
   }
   
@@ -984,4 +984,10 @@ padding-right: 3vw;
     opacity:1;
     width: 100%;
     box-shadow: #333 2px 5px 10px;
+  }
+  .sub-head{
+    text-align: center;
+    color:#3b578e ;
+    letter-spacing: 0.1em;
+    font-weight: 800;
   }
