@@ -987,6 +987,7 @@ padding-right: 3vw;
     box-shadow: #333 2px 5px 10px;
   }
   .sub-head{
+    margin-top: 2vw;
     text-align: center;
     color:#3b578e ;
     letter-spacing: 0.1em;
