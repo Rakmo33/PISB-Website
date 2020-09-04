@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     var currentDate = new Date();
 
     // Set some date in the future. (e.g. 5 , 2 means 6th month 2nd day )
-    var futureDate = new Date(currentDate.getFullYear(), 5, 25);
+    var futureDate = new Date(currentDate.getFullYear(), 9, 5);
 
     // Calculate the difference in seconds between the future and current date
     var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
