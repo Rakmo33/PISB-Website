@@ -6,20 +6,27 @@
 .modal-title {
     text-align: center;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
     margin: 0 auto;
 }
 
 .modal-header .close {
+    outline:none;
     margin: 0;
     padding: 0;
-    /* background: #f7f7f7; */
+    background: #f7f7f7;
 }
 
-
+#tuned{
+    padding:0 auto;
+    text-align: center;
+    font-size: 27px;
+}
 
 #coming {
-    text-align: center;
+    font-weight: 600;
+    padding: 2vw;
+    text-align: left;
     font-size: 27px;
 }
 
@@ -93,12 +100,23 @@
     }
 
     .modal-title {
-        font-size: 35px;
+        font-size: 28px;
     }
 
     .reg-now {
         font-size: 20px;
         margin: 20px auto;
+    }
+    #coming {
+        font-weight: 600;
+        padding: 2vw;
+        text-align: left;
+        font-size: 20px;
+    }
+    #tuned{
+        padding:0 auto;
+        text-align: center;
+        font-size: 20px;
     }
 }
 

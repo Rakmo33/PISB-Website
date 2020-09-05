@@ -1,60 +1,5 @@
 
-  .middle{
-    position: absolute;
-    /* top: 50%; */
-    transform: translateY(-50%);
-    width: 100%;
-    text-align: center;
-  }
-  .btn{
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    background: transparent;
-    margin: 10px;
-    border-radius: 30%;
-    /* box-shadow: 0 5px 15px -5px #00000070; */
-    color: #3498db;
-    overflow: hidden;
-    position: relative;
-    padding: 2vw;
-  }
-  .btn i{
-    line-height: 90px;
-    font-size: 26px;
-    transition: 0.2s linear;
-  }
-  .btn:hover i{
-    transform: scale(1.3);
-    color: #f1f1f1;
-  }
-  .btn::before{
-    content: "";
-    position: absolute;
-    width: 150%;
-    height: 150%;
-    background: #142580;
-    transform: rotate(45deg);
-    left: -110%;
-    top: 180%;
-  }
-  .btn:hover::before{
-    animation: aaa 0.7s 1;
-    top: -10%;
-    left: -10%;
-  }
-  @keyframes aaa {
-    0%{
-      left: -110%;
-      top: 90%;
-    }50%{
-      left: 10%;
-      top: -30%;
-    }100%{
-      top: -10%;
-      left: -10%;
-    }
-  }
+  
   body{
     padding: 0;
     margin: 0;
@@ -67,25 +12,40 @@
     text-align: center;
   }
   .btn{
-    display: inline-block;
+    display: flex;
+    justify-items: center;
     width: 60px;
     height: 60px;
     background: transparent;
-    margin: 10px 20px;
+    margin: 10px auto;
     border-radius: 50%;
     box-shadow: 0 5px 15px -5px #00000070;
     /* border: 2px solid #142580; */
     color: #3498db;
     overflow: hidden;
     position: relative;
-    padding: auto;
+    padding: 2vw;
+    line-height: 1;
   }
-  .btn i{
-    line-height: 90px;
-    font-size: 26px;
+  .btn i::before{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+    display: block;
     transition: 0.2s linear;
   }
+  
   .btn:hover i{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+    display: block;
+    transition: 0.2s linear;
     transform: scale(1);
     color: #f1f1f1;
   }
@@ -117,3 +77,27 @@
     }
   }
     
+  @media (max-width: 768px){
+    .btn i::before{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      height: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 7vw;
+      display: block;
+      transition: 0.2s linear;
+    }
+    
+    .btn:hover i{
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 7vw;
+      display: block;
+      transition: 0.2s linear;
+      transform: scale(1);
+      color: #f1f1f1;
+    }
+  }

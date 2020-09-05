@@ -177,16 +177,6 @@ p{
   .pingsocial li:hover .fab{
     color:white;
   }
-  .fa-facebook-f:before{
-    position: relative;
-    bottom: 4vh;
-    font-size: 25px;
-  }
-  .fa-linkedin:before {
-    position: relative;
-    bottom: 4vh;
-    font-size: 25px;
-  }
 
   #si{
       font-size: 25px;
@@ -299,25 +289,5 @@ p.description {
     #cen{
       margin-left: 6vh;
     }
-
-    i.fab.fa-linkedin:before{
-      bottom: 3vh;
-      right: 0vh;
-    }
-    i.fab.fa-facebook-f:before{
-      bottom: 3vh;
-      right: 0vh;
-    }
     
-  }
-
-  @media (min-device-width :1025px) {
-    i.fab.fa-linkedin:before{
-      bottom: 7vh;
-      right: 1.5vh;
-    }
-    i.fab.fa-facebook-f:before{
-      bottom: 7vh;
-      right: 1.5vh;
-    }
   }
