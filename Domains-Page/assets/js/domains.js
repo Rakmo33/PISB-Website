@@ -63,9 +63,9 @@ const pros = [
     linked2: "Null",
     linked3: "",
 
-    propic1: "assets/img/profile/male.png",
-    propic2: "assets/img/profile/male.png",
-    propic3: "assets/img/profile/male.png",
+    propic1: "./Domains-Page/assets/img/profile/male.png",
+    propic2: "./Domains-Page/assets/img/profile/male.png",
+    propic3: "./Domains-Page/assets/img/profile/male.png",
   },
   {
     name1: "Ritesh Badaan",
@@ -78,9 +78,9 @@ const pros = [
     linked2: "https://www.linkedin.com/in/siddharth-patil-77839b180/",
     linked3: "",
 
-    propic1: "assets/img/profile/ritesh.png",
-    propic2: "assets/img/profile/siddharth.png",
-    propic3: "assets/img/profile/picture.png",
+    propic1: "./Domains-Page/assets/img/profile/ritesh.png",
+    propic2: "./Domains-Page/assets/img/profile/siddharth.png",
+    propic3: "./Domains-Page/assets/img/profile/picture.png",
   },
   {
     name1: "Ajay Kadam",
@@ -93,9 +93,9 @@ const pros = [
     linked2: "https://www.linkedin.com/in/tanmay-nale-939733172/",
     linked3: "https://www.linkedin.com/in/saumitra-kulkarni-0494b6149/",
 
-    propic1: "assets/img/profile/ajay.png",
-    propic2: "assets/img/profile/tanmay.png",
-    propic3: "assets/img/profile/saumitra.png",
+    propic1: "./Domains-Page/assets/img/profile/ajay.png",
+    propic2: "./Domains-Page/assets/img/profile/tanmay.png",
+    propic3: "./Domains-Page/assets/img/profile/saumitra.png",
   },
   {
     name1: "Kapil Mirchandani",
@@ -109,9 +109,9 @@ const pros = [
     linked2: "https://www.linkedin.com/in/kushal-chordiya/",
     linked3: "",
 
-    propic1: "assets/img/profile/kapil.png",
-    propic2: "assets/img/profile/kushal.png",
-    propic3: "assets/img/profile/picture.png",
+    propic1: "./Domains-Page/assets/img/profile/kapil.png",
+    propic2: "./Domains-Page/assets/img/profile/kushal.png",
+    propic3: "./Domains-Page/assets/img/profile/picture.png",
   },
   {
     name1: "Nishita Pali",
@@ -124,9 +124,9 @@ const pros = [
     linked2: "https://www.linkedin.com/in/rashmi-venkateshwaran-188400171/",
     linked3: "",
 
-    propic1: "assets/img/profile/nishita.jpg",
-    propic2: "assets/img/profile/rashmi.png",
-    propic3: "assets/img/profile/picture.png",
+    propic1: "./Domains-Page/assets/img/profile/nishita.jpg",
+    propic2: "./Domains-Page/assets/img/profile/rashmi.png",
+    propic3: "./Domains-Page/assets/img/profile/picture.png",
   },
   {
     name1: "Muskan Jain",
@@ -140,9 +140,9 @@ const pros = [
     linked2: "https://www.linkedin.com/in/rohit-nagotkar-491744149/",
     linked3: "",
 
-    propic1: "assets/img/profile/muskan.png",
-    propic2: "assets/img/profile/rohit.png",
-    propic3: "assets/img/profile/picture.png",
+    propic1: "./Domains-Page/assets/img/profile/muskan.png",
+    propic2: "./Domains-Page/assets/img/profile/rohit.png",
+    propic3: "./Domains-Page/assets/img/profile/picture.png",
   },
   {
     name1: "Purvesh Jain",
@@ -156,9 +156,9 @@ const pros = [
     linked2: "https://www.linkedin.com/in/sudhanshu-b-64113b129/",
     linked3: "",
 
-    propic1: "assets/img/profile/purvesh.png",
-    propic2: "assets/img/profile/sudhanshu.png",
-    propic3: "assets/img/profile/picture.png",
+    propic1: "./Domains-Page/assets/img/profile/purvesh.png",
+    propic2: "./Domains-Page/assets/img/profile/sudhanshu.png",
+    propic3: "./Domains-Page/assets/img/profile/picture.png",
   },
   {
     name1: "Piyusha Gumte",
@@ -172,9 +172,9 @@ const pros = [
     linked2: "https://www.linkedin.com/in/amol-gandhi-606ba71a0/",
     linked3: "https://www.linkedin.com/in/vansh-kaul-a863b1192",
 
-    propic1: "assets/img/profile/piyusha.png",
-    propic2: "assets/img/profile/amol.png",
-    propic3: "assets/img/profile/vansh.png",
+    propic2: "./Domains-Page/assets/img/profile/amol.png",
+    propic3: "./Domains-Page/assets/img/profile/vansh.png",
+    propic1: "./Domains-Page/assets/img/profile/piyusha.png",
   },
 ];
 
@@ -190,14 +190,14 @@ const titles = [
 ];
 
 const images = [
-  "assets/img/domains/web-dev.png",
-  "assets/img/domains/app-dev.png",
-  "assets/img/domains/cp.png",
-  "assets/img/domains/ml.png",
-  "assets/img/domains/design.png",
-  "assets/img/domains/iot.png",
-  "assets/img/domains/marketing.png",
-  "assets/img/domains/lnr.png",
+  "./Domains-Page/assets/img/domains/web-dev.png",
+  "./Domains-Page/assets/img/domains/app-dev.png",
+  "./Domains-Page/assets/img/domains/cp.png",
+  "./Domains-Page/assets/img/domains/ml.png",
+  "./Domains-Page/assets/img/domains/design.png",
+  "./Domains-Page/assets/img/domains/iot.png",
+  "./Domains-Page/assets/img/domains/marketing.png",
+  "./Domains-Page/assets/img/domains/lnr.png",
 ];
 
 const texts = [
@@ -212,24 +212,24 @@ const texts = [
 ];
 
 const eventsHTML = [
-  '  <a href="../Events/events.html#credenz-t-5"  class="events-cont" >  <button class="img-thumbnail "  id="link-to-webweaver">  <img src="assets/img/events/web.png" class="img-fluid event-image" alt="">      <div class="d-flex justify-content-center event-title">Web Weaver</div></button></a>',
-  '  <a class="events-cont">                                  <button class="img-thumbnail disabled"  id="link-to-software">   <img src="assets/img/events/software.png" class="img-fluid event-image" alt=""> <div class="d-flex justify-content-center event-title">Software Development</div></button></a>',
-  '  <a href="../Events/events.html#credenz-t-2" class="events-cont" >  <button class="img-thumbnail "  id="link-to-clash">      <img src="assets/img/events/clash.png" class="img-fluid event-image" alt="">    <div class="d-flex justify-content-center event-title">Clash</div></button> </a>                   <a href="../Events/events.html#credenz-t-2 "class="events-cont"  ><button class="img-thumbnail "  >    <img src="assets/img/events/rc.png" class="img-fluid event-image" id="link-to-rc" alt="">                   <div class="d-flex justify-content-center event-title">Reverse Coding</div></button></a>    <a href="../Events/events.html#ctd-t-1" class="events-cont" > <button class="img-thumbnail ">    <img src="assets/img/events/ncc.png" class="img-fluid event-image" id="link-to-ncc" alt="">    <div class="d-flex justify-content-center event-title">NCC</div></button></a>',
-  '  <a href="../Events/events.html#credenz-t-6" class="events-cont" >  <button class="img-thumbnail "  id="link-to-xodia">      <img src="assets/img/events/xodia.png" class="img-fluid event-image" alt="">    <div class="d-flex justify-content-center event-title">XOdia</div></button> </a>                   <a href="../Events/events.html#credenz-t-4 "class="events-cont"  ><button class="img-thumbnail "  >    <img src="assets/img/events/datawiz.png" class="img-fluid event-image" id="link-to-datawiz" alt="">         <div class="d-flex justify-content-center event-title">DataWiz</div></button></a>',
-  '  <a href="../Events/events.html#credenz-nt-2" class="events-cont" > <button class="img-thumbnail "  id="link-to-pixelate">   <img src="assets/img/events/pixelate.png" class="img-fluid event-image" alt=""> <div class="d-flex justify-content-center event-title">Pixelate</div></button></a>',
-  '  <a href="../Events/events.html#credenz-nt-4" class="events-cont" >  <button class="img-thumbnail "  id="link-to-roboliga">   <img src="assets/img/events/roboliga.png" class="img-fluid event-image" alt=""> <div class="d-flex justify-content-center event-title">RoboLIGA</div></button> </a>                <a href="../Events/events.html#credenz-t-3" class="events-cont">   <button class="img-thumbnail "  >   <img src="assets/img/events/cretronix.png" class="img-fluid event-image" id="link-to-cretronix" alt="">     <div class="d-flex justify-content-center event-title">Cretronix</div></button></a>',
-  '  <a href="../Events/events.html#credenz-nt-1" class="events-cont" > <button class="img-thumbnail "  id="link-to-bplan">      <img src="assets/img/events/bplan.png" class="img-fluid event-image" alt="">    <div class="d-flex justify-content-center event-title">B-Plan</div></button> </a>                  <a href="../Events/events.html#credenz-nt-3" class="events-cont">   <button class="img-thumbnail "  >  <img src="assets/img/events/wallstreet.png" class="img-fluid event-image" id="link-to-wallstreet" alt="">   <div class="d-flex justify-content-center event-title">Wall Street</div></button></a>',
-  '  <a href="../Events/events.html#ctd-t-2" class="events-cont" > <button class="img-thumbnail "  id="link-to-nth">      <img src="assets/img/events/nth.png" class="img-fluid event-image" alt="">    <div class="d-flex justify-content-center event-title">NTH</div></button> </a>                               <a href="../Events/events.html#credenz-nt-5" class="events-cont" > <button class="img-thumbnail "  id="link-to-enigma">      <img src="assets/img/events/enigma.png" class="img-fluid event-image" alt="">    <div class="d-flex justify-content-center event-title">Enigma</div></button> </a> ',
+  '  <a href="./events.html#credenz-t-5"  class="events-cont" >  <button class="img-thumbnail "  id="link-to-webweaver">  <img src="./Domains-Page/assets/img/events/web.png" class="img-fluid event-image" alt="">      <div class="d-flex justify-content-center event-title">Web Weaver</div></button></a>',
+  '  <a class="events-cont">                                  <button class="img-thumbnail disabled"  id="link-to-software">   <img src="./Domains-Page/assets/img/events/software.png" class="img-fluid event-image" alt=""> <div class="d-flex justify-content-center event-title">Software Development</div></button></a>',
+  '  <a href="./events.html#credenz-t-2" class="events-cont" >  <button class="img-thumbnail "  id="link-to-clash">      <img src="./Domains-Page/assets/img/events/clash.png" class="img-fluid event-image" alt="">    <div class="d-flex justify-content-center event-title">Clash</div></button> </a>                   <a href="./events.html#credenz-t-2 "class="events-cont"  ><button class="img-thumbnail "  >    <img src="./Domains-Page/assets/img/events/rc.png" class="img-fluid event-image" id="link-to-rc" alt="">                   <div class="d-flex justify-content-center event-title">Reverse Coding</div></button></a>    <a href="./events.html#ctd-t-1" class="events-cont" > <button class="img-thumbnail ">    <img src="./Domains-Page/assets/img/events/ncc.png" class="img-fluid event-image" id="link-to-ncc" alt="">    <div class="d-flex justify-content-center event-title">NCC</div></button></a>',
+  '  <a href="./events.html#credenz-t-6" class="events-cont" >  <button class="img-thumbnail "  id="link-to-xodia">      <img src="./Domains-Page/assets/img/events/xodia.png" class="img-fluid event-image" alt="">    <div class="d-flex justify-content-center event-title">XOdia</div></button> </a>                   <a href="./events.html#credenz-t-4 "class="events-cont"  ><button class="img-thumbnail "  >    <img src="./Domains-Page/assets/img/events/datawiz.png" class="img-fluid event-image" id="link-to-datawiz" alt="">         <div class="d-flex justify-content-center event-title">DataWiz</div></button></a>',
+  '  <a href="./events.html#credenz-nt-2" class="events-cont" > <button class="img-thumbnail "  id="link-to-pixelate">   <img src="./Domains-Page/assets/img/events/pixelate.png" class="img-fluid event-image" alt=""> <div class="d-flex justify-content-center event-title">Pixelate</div></button></a>',
+  '  <a href="./events.html#credenz-nt-4" class="events-cont" >  <button class="img-thumbnail "  id="link-to-roboliga">   <img src="./Domains-Page/assets/img/events/roboliga.png" class="img-fluid event-image" alt=""> <div class="d-flex justify-content-center event-title">RoboLIGA</div></button> </a>                <a href="./events.html#credenz-t-3" class="events-cont">   <button class="img-thumbnail "  >   <img src="./Domains-Page/assets/img/events/cretronix.png" class="img-fluid event-image" id="link-to-cretronix" alt="">     <div class="d-flex justify-content-center event-title">Cretronix</div></button></a>',
+  '  <a href="./events.html#credenz-nt-1" class="events-cont" > <button class="img-thumbnail "  id="link-to-bplan">      <img src="./Domains-Page/assets/img/events/bplan.png" class="img-fluid event-image" alt="">    <div class="d-flex justify-content-center event-title">B-Plan</div></button> </a>                  <a href="./events.html#credenz-nt-3" class="events-cont">   <button class="img-thumbnail "  >  <img src="./Domains-Page/assets/img/events/wallstreet.png" class="img-fluid event-image" id="link-to-wallstreet" alt="">   <div class="d-flex justify-content-center event-title">Wall Street</div></button></a>',
+  '  <a href="./events.html#ctd-t-2" class="events-cont" > <button class="img-thumbnail "  id="link-to-nth">      <img src="./Domains-Page/assets/img/events/nth.png" class="img-fluid event-image" alt="">    <div class="d-flex justify-content-center event-title">NTH</div></button> </a>                               <a href="./events.html#credenz-nt-5" class="events-cont" > <button class="img-thumbnail "  id="link-to-enigma">      <img src="./Domains-Page/assets/img/events/enigma.png" class="img-fluid event-image" alt="">    <div class="d-flex justify-content-center event-title">Enigma</div></button> </a> ',
 ];
 
 const achievements = [
-  "../Achievements/achievements.html#vp",
-  "../Achievements/achievements.html#ca",
-  "../Achievements/achievements.html#hackathons-div",
-  "../Achievements/achievements.html#cpd",
+  "./achievements.html#vp",
+  "./achievements.html#ca",
+  "./achievements.html#hackathons-div",
+  "./achievements.html#cpd",
   "#",
   "#",
-  "../Achievements/achievements.html#wallstreet",
+  "./achievements.html#wallstreet",
   "#",
 ];
 
