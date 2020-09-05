@@ -29,7 +29,7 @@ if (!cookie) {
 }
 
 function showPopup() {
-    setCookie('shown', 'true', 0);
+    setCookie('shown', 'true', 36000);
     setTimeout(function () {
         if (document.getElementById("wallstreet-modal")) {
             $('#wallstreet-modal').modal('show');
