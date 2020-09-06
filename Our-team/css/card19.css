@@ -910,8 +910,8 @@ option {
   align-items: center;
   bottom: 0;
   left: 0;
-  background: #d1ddf4;
   width: 100%;
+  background: #142850;
   transition: all 0.3s;
   z-index: 1;
   padding: 10px;
