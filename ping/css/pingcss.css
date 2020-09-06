@@ -229,6 +229,10 @@ p{
    h2.head{
      font-size: 30px;
    }
+  
+.team-photo1{
+  height: 100%;
+}
 }
 
 
@@ -261,8 +265,12 @@ p{
         margin-bottom: 50px;
     }
 
-    .Effect{
+    #pinghead{
       font-size: 25px;
+    }
+
+    .Effect{
+      font-size: 28px;
       padding: 0 1vw;
     }
 }
