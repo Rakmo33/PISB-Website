@@ -3,6 +3,9 @@
    #FONT
    ========================================================================== */
 
+.body{
+  font-family: "Montserrat", sans-serif;
+}
 
 .font-Montserrat {
   font-family: "Montserrat", sans-serif;
@@ -304,7 +307,7 @@ input[type="date" i] {
 
 .table-condensed td, .table-condensed th {
   font-size: 14px;
-  font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
 
@@ -566,7 +569,7 @@ input {
 }
 
 .rs-select2 .select2-container .select2-selection--single .select2-selection__arrow:after {
-  font-family: "Material-Design-Iconic-Font";
+  /* font-family: "Material-Design-Iconic-Font"; */
   content: '\f2f9';
   font-size: 24px;
   color: #999;
