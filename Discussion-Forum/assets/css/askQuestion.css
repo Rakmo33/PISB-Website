@@ -1,0 +1,86 @@
+/* *{
+    border: 2px solid red;
+} */
+
+.askQuestion {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: auto;
+    margin: 30px auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+    border-radius: 1vw;
+    font-family: inherit;
+    color: #142850;
+}
+
+.title-box {
+    margin: 3vw auto;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.category {
+    margin-top: 15px;
+}
+
+.drop {
+    height: 3vw;
+}
+
+.bet {
+    margin-right: 0 7vw;
+}
+
+.image-icon {
+    font-family: inherit;
+    font-size: 50%;
+    cursor: pointer;
+    width: auto;
+}
+
+.btn-primary {
+    background-color: #142850 !important;
+    border: 1px solid #142850 !important;
+}
+
+.title-text {
+    display: block;
+    margin: 15px 0;
+    width: 100%;
+    padding: 10px;
+    height: 3vw;
+    border: 1.5px solid #142850;
+    border-radius: 3px;
+    font-size: 1.2vw;
+    line-height: 1.5vw;
+}
+
+.askQuestion input:focus {
+    outline: none;
+}
+
+.askQuestion textarea:focus {
+    outline: none;
+}
+
+.title-description {
+    margin: 0;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    border: 1.5px solid #142850;
+    border-radius: 3px;
+    font-size: 1.2vw;
+}
+
+.submit {
+    margin: 20px auto;
+    font-size: 1vw;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+input.custom-file-input {
+    width: 130px !important;
+}

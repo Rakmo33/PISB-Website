@@ -1,0 +1,176 @@
+@media(max-width:767px) {
+    .search-btn {
+        font-size: 3vw;
+        padding-left: 0.8vw;
+        padding-bottom: 0.6vw;
+        margin-bottom: 0.5vw;
+        margin-top: 0.5vw;
+    }
+
+    .search-box {
+        font-size: 3vw;
+        padding-right: 1vw;
+        margin-right: 2.5vw;
+        height: 6.5vw;
+        margin-bottom: 3vw;
+    }
+
+    .domains-drop {
+        width: 200vw;
+        height: 6vw;
+        margin-left: 0.1vw;
+        margin-right: -2vw;
+        font-size: 2.2vw;
+        font-weight: 550;
+        padding-left: 1vw;
+        border-radius: 8px;
+    }
+
+    a.trend {
+        height: 6vw;
+        line-height: 5.5vw;
+        font-size: 2.5vw;
+        margin-right: 1vw;
+        padding-right: 1vw;
+        padding-left: 1vw;
+        border-radius: 8px;
+
+    }
+
+    a.ask {
+        height: 6vw;
+        font-size: 2.65vw;
+        margin-right: 2vw;
+        width: 100%;
+        line-height: 5.1vw;
+        border-radius: 8px;
+    }
+}
+
+@media(max-width:1130px) {
+    .domains-drop {
+        border-radius: 12px;
+    }
+
+    a.trend {
+        border-radius: 12px;
+    }
+
+    a.ask {
+        border-radius: 12px;
+    }
+}
+
+@media(max-width:462px) {
+    a.ask {
+        padding-left: 1.2vw;
+        border-radius: 6px;
+    }
+
+    a.trend {
+        border-radius: 6px;
+    }
+
+    .domains-drop {
+        border-radius: 6px;
+    }
+}
+
+@media(max-width:423px) {
+    .search-box {
+        font-size: 3.9vw;
+        height: 9vw;
+    }
+
+    .search-btn {
+        font-size: 4.2vw;
+        padding-top: 1vw;
+    }
+
+    .domains-drop {
+        height: 8vw;
+        font-size: 2.5vw;
+        border-radius: 6px;
+        margin-right: -2.9vw;
+    }
+
+    a.trend {
+        height: 8vw;
+        width: 250vw;
+        font-size: 3vw;
+        border-radius: 6px;
+        line-height: 6.7vw;
+    }
+
+    a.ask {
+        height: 8vw;
+        width: 350vw;
+        font-size: 2.8vw;
+        line-height: 6.7vw;
+        border-radius: 6px;
+        padding-left: 1.4vw;
+    }
+}
+
+@media(max-width:387px) {
+    .domains-drop {
+        margin-right: 1vw;
+        height: 9vw;
+        border-radius: 6px;
+        font-size: 3vw;
+    }
+
+    .search-btn {
+        font-size: 5vw;
+        padding-left: 1.2vw;
+    }
+
+    .search-box {
+        margin-left: -5vw;
+        height: 10vw;
+        margin-right: -1vw;
+
+    }
+
+    a.trend {
+        margin-left: -6.5vw;
+        font-size: 3.5vw;
+        height: 9vw;
+        border-radius: 5px;
+        line-height: 8.2vw;
+        margin-right: 5.1vw;
+    }
+
+    a.ask {
+        margin-right: -2vw;
+        height: 9vw;
+        font-size: 3.3vw;
+        margin-left: -7vw;
+        line-height: 7.8vw;
+        border-radius: 6px;
+        margin-left: -10.5vw;
+        margin-right: -0.0vw;
+        padding-left: 2.9vw;
+    }
+
+    .pll-0 {
+        padding-left: 0;
+    }
+
+    input.custom-file-input {
+        width: 80px !important;
+        height: 25px !important;
+    }
+}
+
+@media(max-width:348px) {
+    .add-img {
+        font-size: 5.8px !important;
+    }
+}
+
+@media(max-width:375px) {
+    a.trend {
+        margin-right: 4.9vw
+    }
+}

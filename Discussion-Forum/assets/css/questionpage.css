@@ -1,0 +1,221 @@
+body {
+    font-family: "Montserrat" , sans-serif !important; 
+    line-height: 1.6;
+
+}
+
+.brdr {
+    border: 0px solid red;
+}
+
+.main-cont {
+    margin-top: 105px;
+}
+
+.back {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    margin-left: 5vw;
+    font-size: 2vw;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background: #dfe4ee;
+    color: #142850;
+   
+
+}
+
+.back:hover{
+    background: #406fce;
+}
+
+.m-card {
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+    background: #142850;
+    color: #eef;
+    border-radius: 1vw;
+    padding-bottom: 2vw;
+   
+}
+
+.answer-card {
+    margin-top: 20px;
+    /* margin-left:7.2vw; */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    padding-bottom: 2vw;
+    background: #d1ddf4;
+    color: #142850;
+    border-radius: 1vw;
+  
+}
+
+.like {
+    font-size: 1vw;
+    border: none;
+    border-radius: 12px;
+    background: #d1ddf4;
+    color: #142850;
+    margin-right: 1vw;
+    padding: 0.3vw 0.7vw; 
+}
+.ans-like{
+    font-size: 0.9vw;
+    border: none;
+    border-radius: 12px;
+    background: #142850;
+    color: #d1ddf4;
+    margin-right: 1vw;
+    padding: 0.3vw 0.7vw; 
+}
+
+.answer{
+    margin: 0vw;
+}
+
+.people-card {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 1.5vw;
+    background: #d1ddf4;
+    color: #142850;
+   
+
+    border-radius: 5px;
+}
+
+
+.people {
+    font-size: 2vw;
+    margin-top: 80px;
+}
+
+.quest {
+    width: 100%;
+    text-align: left;
+    font-size: 1.3vw;
+    color: #142850;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    box-shadow: none;
+    background: #d1ddf4;
+    cursor: pointer;
+    padding: 12px;
+    padding-left: 20px;
+    color: #eaf3fa;
+    background: #142850;
+    
+}
+
+button:focus{
+    outline: none;
+    border: none;
+}
+
+.btn.quest{
+    border-radius: 0;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.paa-ans {
+    color: #142850;
+    background: #ffffff;
+    font-size: 1.2vw;
+    line-height: 1.7vw;
+    padding: 10px 20px;
+}
+
+
+
+.profile-name {
+    font-size: 1.3vw;
+    font-weight: 700;
+    align-self: flex-start;
+    padding-top: 1.5vw;
+    padding-right: 35px;
+    padding-left: 1vw;
+}
+
+.ansprofile-name {
+    color: #142850;
+    font-size: 1.1vw;
+    line-height: 1.5vw;
+    font-weight: 600;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+    padding-right: 30px;
+    margin-left: -1vw;
+    text-align: justify;
+    align-self: center;
+}
+
+.m-card h4{
+    font-size: 1.5vw;
+
+}
+
+.profile-description {
+    
+    font-size: 1.1vw;
+    line-height: 1.6;
+    font-weight: 400;
+    margin-right: 10px;
+    text-align: justify;
+    padding: 10px 0;
+    /* margin: -3vw 0 2vw 2vw; */
+}
+
+.profile-sidebar {
+    text-align: center;
+}
+
+.m-card .text{
+    display: flex;
+    flex-direction: column;
+    min-height: 10vw;
+    justify-content: center;
+
+
+}
+
+.domain {
+    margin: auto;
+    margin-top: 2vw;
+    border: 0.1vw solid #d1ddf4;
+    border-radius: 0.5vw;
+    padding: 0.35vw;
+    font-size: 1vw;
+    width: auto;
+    text-align: center;
+
+}
+.time{
+    position: absolute;
+    right: 100px;
+    font-weight: 500;
+    font-size: 1.1vw;
+}
+.ans-time{
+    font-size: 01vw;
+    position: absolute;
+    right: 100px;
+}
+.profile-image {
+    border-radius: 50%;
+    height: 4vw;
+    margin: 1vw auto 0;
+}
+
+.m-card .profile-image{
+    height: 6vw;
+    margin: 1vw auto 0;
+}
+
+.auth-name {
+    margin-top: 1vw;
+    font-size: 1vw;
+    font-weight: 600;
+}
+

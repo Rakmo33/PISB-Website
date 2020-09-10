@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat" , sans-serif !important; 
+    font-size: inherit;
+    line-height: 1.6;
+    min-height: 100hv;
+    display: grid;
+    place-items: center;
+
+}
+
+.back{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    margin-right: 3px;
+    outline: none;
+    border-radius:10px;
+    background: #050d4e ;
+    color: white;
+    
+}
+i{
+    color: white;
+}
+.m-card{
+    margin-top: 30px;
+    box-shadow:  0 0 2em rgba(0, 0, 0, 0.5);
+    width: 75%;
+    height: 210px;
+    position: absolute;
+    background: #050d4e;
+    color: white;
+    display: flex;
+    padding: 2em;
+    top: 17%;
+    left: 13%;
+    border-radius: 10px;
+}
+.answer-card{
+    margin-top: 30px;
+    box-shadow:  0 0 2em rgba(0, 0, 0, 0.5);
+    width: 60%;
+    height: 150px;
+    position: absolute;
+    background: #050d4e;
+    color: white;
+    display: flex;
+    padding: 2em;
+    top: 60%;
+    left: 28%;
+    border-radius: 10px;
+}
+.people-card{
+    box-shadow:  0 0 2em rgba(0, 0, 0, 0.5);
+    width: 60%;
+    height: 40px;
+    position: absolute;
+    background: #050d4e;
+    color: white;
+    display: flex;
+    padding: 0.5em;
+    top: 89%;
+    left: 23%;
+    border-radius: 10px;
+}
+.card-body{
+    color: black;
+}
+.people{
+    position: absolute;
+    top: 89%;
+    left: 23%;
+}
+button{
+    
+    border: none;
+    border-radius: 10px;
+    margin-right: 3px;
+    outline: none;
+    background: #050d4e;
+    color: white;
+}
+button:hover{
+    box-shadow: 3px 3px 5px grey;
+
+}
+
+.profile-name{
+    margin-left: 50px;
+    font-weight: 700;
+}
+.ansprofile-name{
+    margin-left: 50px;
+    font-weight: 600;
+}
+.profile-description{
+    margin-top: 30px;
+    margin-left: 50px;
+    font-weight: 300;
+}
+.profile-sidebar{
+    text-align: center;
+}
+.domain{
+    margin-top: 20px;
+    border: 1px solid #fff;
+    border-radius:10px;
+    padding: 5px;
+    font-size: small;
+}
+
+.profile-image{
+    border-radius: 50%;
+}
+.auth-name{
+    margin-top: 10px;
+    font-size: medium;
+}
+footer{
+    margin-top: 500px;
+}

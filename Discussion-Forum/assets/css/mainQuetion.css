@@ -1,0 +1,136 @@
+body {
+  font-family: "Montserrat" , sans-serif !important; 
+  line-height: 1.6;
+
+}
+.discussion {
+  height: 30vh;
+}
+
+.quetion a {
+  text-decoration: none;
+  color: inherit;
+  background-color: #142850;
+  box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.2);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 30px 0;
+  border-radius: 0.8vw;
+  position: relative;
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 1.2vw;
+
+
+}
+
+.recent-q{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 20px 0;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.quetion {
+  z-index: 1;
+  width: 100%;
+  margin-bottom: 50px;
+  
+}
+
+.quetion-box {
+  flex-direction: column;
+  margin-top: 30px;
+  /* position: absolute;
+  top: 48%;
+  left: 14%;
+  transform: translate(-50%, -50%); */
+}
+
+/* .quetion-box-wrap{
+  padding: auto 20px;
+} */
+
+.profileimg {
+  height: 6vw;
+  width: auto;
+  border-radius: 50%;
+}
+
+.author {
+  font-family: inherit;
+  margin-top: 1.5vw;
+}
+
+.que-box {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+}
+
+.que-title {
+  font-weight: 700;
+  font-size: 110%;
+  width: 94%;
+  margin-left: 5%;
+  margin-bottom: 1.6vw;
+  padding-top: 1vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.que-description {
+  width: 94%;
+  margin-left: 5%;
+  margin-bottom: 1.6vw;
+ 
+}
+
+.thumbnails {
+  list-style: none;
+}
+
+.list-item {
+  display: inline-block;
+  transition: all 0.2s;
+}
+
+.list-item:not(:last-child) {
+  margin-right: 4vw;
+}
+
+.third-box-wrap{
+  flex-direction: column;
+  display: flex;
+}
+
+.third-box {
+  /* margin-top: -11.5vw;
+  margin-left: 0.7vw; */
+  margin-top: 40px;
+}
+
+.third-box.left{
+  display: none;
+}
+
+.domain {
+  display: block;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 0.15vw solid #ffffff;
+  text-align: center;
+  border-radius: 0.7vw;
+  text-transform: uppercase;
+  padding: 0.5vw 0.5vw;
+}
+
