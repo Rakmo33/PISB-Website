@@ -10,8 +10,9 @@ body {
   /* overflow-x: hidden; */
 }
 
-
-
+.image{
+  width:100%;
+}
 
 .heading {
 
