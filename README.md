@@ -17,8 +17,7 @@ or
 
 > Hosted using **GoDaddy cPanel** (original deployment).
 
-<video src="[./assets/demo.mov](https://github.com/Rakmo33/PISB-Website/blob/master/assets/demo.mov)" autoplay loop muted width="100%"></video>
-
+![Demo](./assets/demo.gif)
 ---
 
 ## 🤝 Team Collaboration
