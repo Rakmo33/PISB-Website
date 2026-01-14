@@ -11,9 +11,13 @@ The project was intentionally developed as a **purely static website** using **H
 ## 🌐 Live Demo
 
 🔗 https://pictieee.in/ 
+
+or
 🔗 https://rakmo33.github.io/PISB-Website/
 
 > Hosted using **GoDaddy cPanel** (original deployment).
+
+<video src="./assets/demo.mov" autoplay loop muted width="100%"></video>
 
 ---
 
@@ -49,22 +53,20 @@ The project was intentionally developed as a **purely static website** using **H
 
 ## 📂 Website Sections
 
-- **Home** – Introduction to PISB and its vision  
-- **About Us** – Overview of IEEE and PISB  
-- **Domains** – Technical and non-technical domains  
-- **Events** – Past and upcoming activities  
-- **Gallery** – Event photos and highlights  
-- **Contact Us** – Contact details and inquiry form  
-
----
-
-## 🖼️ Screenshots
-
-- ![Home Page](./assets/screens/home.png)  
-- ![Domains](./assets/screens/domains.png)  
-- ![Events](./assets/screens/events.png)  
-- ![Gallery](./assets/screens/gallery.png)  
-- ![Contact](./assets/screens/contact.png)  
+**Home** – Introduction to PISB and its vision  
+![Home](./assets/home.png)
+**About Us** – Overview of IEEE and PISB  
+![About](./assets/about.png)
+**Domains** – Technical and non-technical domains  
+![Domains](./assets/domains.png)
+**Events** – Past and upcoming activities  
+![Events](./assets/events.png)
+**Gallery** – Event photos and highlights  
+![Gallery](./assets/gallery.png)
+**Contact Us** – Contact details and inquiry form  
+![Contact](./assets/contact.png)
+**Our Team** – Web Team 
+![Contact](./assets/team.png)
 
 ---
 
